@@ -1,12 +1,10 @@
-import Home from './modules/home'
-import './App.css';
 
+import './App.css';
+import Routing from './routing';
 function App() {
   return (
     <div className="App">
-      <Home />
-    
-    
+      <Routing />
     </div>
   );
 }

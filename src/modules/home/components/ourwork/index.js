@@ -11,8 +11,11 @@ import img5 from '../../../../assets/ourwork5.jpg';
 function Ourwork() {
     return (
         <Grid container style={style.bgcolor}>
-            <h1 style={style.heading}>OurWork</h1>
-            <Grid style={style.grid} style={style.align}>
+            <Grid item md={12}>
+            <h1 style={style.heading}>OUR WORK</h1>
+            </Grid>
+            
+            
                 <Grid item sm={4}>
                     <img style={style.img1} src={img1} alt="" />
                 </Grid>
@@ -22,8 +25,8 @@ function Ourwork() {
                 <Grid item sm={4}>
                     <img style={style.img1} src={img3} alt="" />
                 </Grid>
-            </Grid>
-            <Grid style={style.align}>
+
+        
                 <Grid item sm={4}>
                     <img style={style.img1} src={img4} alt="" />
                 </Grid>
@@ -34,7 +37,7 @@ function Ourwork() {
                     <img style={style.img1} src={img1} alt="" />
                 </Grid>
             </Grid>
-        </Grid>
+    
     )
 }
 export default Ourwork;

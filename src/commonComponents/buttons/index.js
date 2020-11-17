@@ -9,11 +9,10 @@ function Buttons(props) {
 
         <div>
            
-           <Button style={style.button }
-                            variant="contained"
-                            color="secondary"
-                            startIcon={<PlayArrowIcon />} >
-                            Contact Us
+           <Button style={{...style.button, backgroundColor: props.color ? props.color : "rgb(33, 118, 255)",color: props.text ? props.text : "black" }}   variant="contained">
+                             
+                            {< PlayArrowIcon />} 
+                            {props.title}
                          </Button>
         </div>
 

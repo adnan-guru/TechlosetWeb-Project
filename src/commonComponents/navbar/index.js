@@ -4,10 +4,9 @@ import {style} from './style.js';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import Buttons from '../../commonComponents/buttons';
+import Button from '@material-ui/core/Button';
 
 
 
@@ -21,13 +20,15 @@ export default function Navbar() {
           <Typography variant="h6" style={style.title}>
             
           </Typography>
-          <Link style={style.toplink} >HOME</Link>
-          <Link style={style.toplink} >ABOUT</Link>
-          <Link style={style.toplink} >WORK</Link>
-          <Link style={style.toplink} >BLOG</Link>
+          <Link to="/" style={style.toplink} >HOME</Link>
+          <Link to="/about" style={style.toplink} >ABOUT</Link>
+          <Link to="/work" style={style.toplink} >WORK</Link>
+          <Link to="/blog" style={style.toplink} >BLOG</Link>
           <Link style={style.toplink} >SERVICES</Link>
           <Link style={style.toplink} >JOBS</Link>
-          <Buttons />
+          <Button style={style.button} variant="contained" color="primary">
+        CONTACT US
+      </Button>
         </Toolbar>
       </AppBar>
     
