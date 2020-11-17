@@ -1,5 +1,4 @@
 export const style={
-
     root: {
         backgroundColor: 'rgb(50,54,67)',
         padding:'12px',
@@ -9,8 +8,6 @@ export const style={
         maxWidth:'15%',
         hieght:'auto',
         marginLeft:'40px',
-        
-         
          },
       title: {
         flexGrow: 1,
@@ -31,10 +28,6 @@ export const style={
         outline:'none',
         fontSize:'14px',
         lineHeight:'17px',
-      }
-
-
-
-
+      },
 }
 

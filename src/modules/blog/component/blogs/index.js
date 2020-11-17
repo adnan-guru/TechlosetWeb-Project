@@ -1,11 +1,10 @@
 import React from 'react';
 import { style } from './style.js';
 import Grid from '@material-ui/core/Grid';
-import Buttons from '../../../../commonComponents/buttons';
 import { Typography } from '@material-ui/core';
 
 
-function Watchvideo() {
+function Blogs() {
     return (
         <Grid style={style.main} container>
             <Grid item md={3} xs={2}></Grid>
@@ -22,4 +21,4 @@ function Watchvideo() {
 
     )
 }
-export default Watchvideo;
+export default Blogs;

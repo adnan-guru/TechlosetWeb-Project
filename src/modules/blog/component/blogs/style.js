@@ -24,6 +24,7 @@ para:{
 },
 heading:{
     margin: '0px',
+    fontWeight: '540',
     color: '#fff',
     fontSize: '100px',
     lineHeight: '1.2',
