@@ -4,18 +4,21 @@ export const style = {
         paddingRight: '50px',
     },
     heading1: {
-        fontSize: '45px',
         textAlign: 'left',
-        marginTop: '80px',
-        marginBottom: '50px',
+        marginBottom: '30px',
         color: '#323643',
+        fontSize: '45px',
         fontWeight: '750',
-        clear: 'both',
+
+
     },
-    img2: {
+    top: {
+        marginTop: '100px'
+    },
+    img: {
         maxWidth: '100%',
         width: '570px',
-        height: '535px',
+        height: '580px',
         marginTop: '50px',
         padding: '0px',
     },
@@ -25,14 +28,13 @@ export const style = {
         fontSize: '18px',
         fontWeight: '400',
     },
-
-
     para: {
         color: '#747a87',
         lineHeight: '30px',
         fontSize: '18px',
         fontWeight: '400',
         marginBottom: '30px',
+        paddingTop: '30px',
     },
     button: {
         backgroundColor: 'rgb(33, 118, 255)',

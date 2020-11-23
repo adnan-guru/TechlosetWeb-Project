@@ -3,21 +3,21 @@ export const style = {
         paddingLeft: "50px",
         paddingRight: '50px',
     },
-    heading1: {
-        fontSize: '45px',
+    heading: {
         textAlign: 'left',
         marginTop: '80px',
         marginBottom: '50px',
         color: '#323643',
-        fontWeight: '750',
-        clear: 'both',
+        fontSize:'45px',
+        fontWeight:'750',
     },
     img2: {
         maxWidth: '100%',
-        width: '570px',
-        height: '535px',
+        width: '590px',
+        height: '590px',
         marginTop: '50px',
         padding: '0px',
+
     },
     list: {
         color: '#747a87',
@@ -25,8 +25,13 @@ export const style = {
         fontSize: '18px',
         fontWeight: '400',
     },
-
-
+    alignitem: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: '40px',
+    },
     para: {
         color: '#747a87',
         lineHeight: '30px',
