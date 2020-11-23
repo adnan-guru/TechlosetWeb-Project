@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link to="/about" style={style.toplink} >ABOUT</Link>
           <Link to="/work" style={style.toplink} >WORK</Link>
           <Link to="/blog" style={style.toplink} >BLOG</Link>
-          <Link style={style.toplink} >SERVICES</Link>
+          <Link to="/services" style={style.toplink} >SERVICES</Link>
           <Link style={style.toplink} >JOBS</Link>
           <Button style={style.button} variant="contained" color="primary">
         CONTACT US
