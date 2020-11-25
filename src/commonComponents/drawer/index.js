@@ -11,16 +11,20 @@ import { Link } from 'react-router-dom';
 
 
 
+
+
 const useStyles = makeStyles({
     list: {
-        width: 300,
-        height:300,
+        width: 370,
+        height: 300,
         backgroundColor: 'rgb(50,54,67)',
-      //  marginTop:'50px'
+        paddingLeft: '100px',
+        opacity:'0.9',
         
+
     },
     fullList: {
-       // width: 250,
+        // width: 250,
     },
 });
 
@@ -39,7 +43,7 @@ export default function SwipeableTemporaryDrawer() {
         event
     ) => {
 
-        setState({ ...state, left: open });
+        setState({ ...state, top: open });
     };
 
     const list = (anchor) => (
@@ -60,18 +64,20 @@ export default function SwipeableTemporaryDrawer() {
                     <Link to="/about" style={style.toplink} >ABOUT</Link>
                 </ListItem>
                 <ListItem button key={"work"}>
-                <Link to="/work" style={style.toplink} >WORK</Link>
+                    <Link to="/work" style={style.toplink} >WORK</Link>
                 </ListItem>
                 <ListItem button key={"blog"}>
-                <Link to="/blog" style={style.toplink} >BLOG</Link>
+                    <Link to="/blog" style={style.toplink} >BLOG</Link>
                 </ListItem>
                 <ListItem button key={"servics"}>
-                <Link to="/services" style={style.toplink} >SERVICES</Link>
+                    <Link to="/services" style={style.toplink} >SERVICES</Link>
                 </ListItem>
                 <ListItem button key={"About"}>
-                <Link to="/jobs" style={style.toplink} >JOBS</Link>
+                    <Link to="/jobs" style={style.toplink} >JOBS</Link>
                 </ListItem>
-
+                <ListItem>
+                <Link to="/jobs" style={style.toplink} >CONTACT US</Link>
+                </ListItem>
             </List>
             <Divider />
         </div>
@@ -79,16 +85,16 @@ export default function SwipeableTemporaryDrawer() {
 
     return (
         <div>
-            <ReorderSharpIcon style={style.button} onClick={toggleDrawer("left", true)} />
+            <ReorderSharpIcon style={style.icon} onClick={toggleDrawer("top", true)} />
 
-            <React.Fragment key={"left"}>
+            <React.Fragment key={"top"}>
                 <SwipeableDrawer
-                    anchor={"left"}
-                    open={state["left"]}
-                    onClose={toggleDrawer("left", false)}
-                    onOpen={toggleDrawer("left", true)}
+                    anchor={"top"}
+                    open={state["top"]}
+                    onClose={toggleDrawer("top", false)}
+                    onOpen={toggleDrawer("top", true)}
                 >
-                    {list("left")}
+                    {list("top")}
                 </SwipeableDrawer>
             </React.Fragment>
         </div>
