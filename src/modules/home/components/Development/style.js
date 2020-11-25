@@ -1,18 +1,21 @@
 import img2 from '../../../../assets/bgimage2.jpg';
+import {colors} from '../../../../commonComponents/constants/color'
 export const style = {
     para: {
         fontSize: '19px',
-        color: '#fff',
+        color: colors.primaryColor,
         letterSpacing: '2px',
-        fontWeight: '500',
+        fontWeight: '300',
         lineHeight: '30px',
         textAlign: 'center',
 
     },
     heading: {
         color: '#fff',
-        fontSize: '63px',
-        marginTop: '200px',
+        fontWeight: '700',
+        fontSize: '4.5vw',
+        marginTop: '80px',
+        marginBottom: '20px',
         textAlign: 'center',
     },
     alignment: {
@@ -22,16 +25,15 @@ export const style = {
         justifyContent: 'center',
     },
     button: {
+        color: colors.primarycolor,
         backgroundColor: '#2176ff',
-        fontWeight: '400',
+        fontWeight: '600',
         borderRadius: '50px',
-        padding: '13px 49px',
+        padding: '10px 30px 10px 20px',
+        letterSpacing: '3px',
         marginTop: '10px',
         outline: 'none',
         marginBottom: '200px',
-
-
-
     },
     atag: {
         textDecoration: 'none',

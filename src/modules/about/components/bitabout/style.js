@@ -2,7 +2,6 @@ export const style = {
     heading: {
         fontSize: '60px',
         textAlign: 'left',
-        lineHeight: '1.17px',
         fontWeight: '500',
         marginTop: '80px',
         marginBottom: '50px'

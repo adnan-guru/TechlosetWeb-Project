@@ -4,6 +4,7 @@ import About from '../modules/about';
 import Work from '../modules/work';
 import Blog from '../modules/blog';
 import Services from '../modules/services';
+import Jobs from '../modules/jobs';
 import {
     BrowserRouter as Router,
     Switch,
@@ -31,6 +32,9 @@ function App(){
         </Route>
         <Route path="/services">
           <Services />
+        </Route>
+        <Route path="/jobs">
+          <Jobs />
         </Route>
       </Switch>
       <Footer />

@@ -1,8 +1,8 @@
 import React from 'react';
 import Contactus from './components/contactus';
 import Bitabout from './components/bitabout';
-import Ourwork from './components/ourwork';
-import Bigidea from './components/bigidea';
+import Ourwork from '../../commonComponents/ourwork';
+import Bigidea from '../../commonComponents/bigidea';
 
 function About() {
     return (

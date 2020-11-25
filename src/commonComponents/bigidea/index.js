@@ -2,7 +2,7 @@ import React from 'react';
 import {style} from './style.js'
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Buttons from '../../../../commonComponents/buttons';
+import Buttons from '../../commonComponents/buttons';
 
 
 
