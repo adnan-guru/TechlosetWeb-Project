@@ -17,8 +17,8 @@ function Services(){
     return(
         <div className="Services">
         <Developmentservices />
-        <Appdeveloment />
-        <Webdevelopment />
+         <Appdeveloment /> 
+         <Webdevelopment />
         <Uidesign />
         <Mobilegamesevelopment />
         <Virtualappdevelopment />

@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 
 function Development() {
     return (
+        <div  position="fixed">
         <Grid container style={style.bgimage}>
             <Grid item md={2} xs={12}></Grid>
             <Grid item md={8} xs={12} style={style.alignment}>
@@ -27,6 +28,7 @@ function Development() {
             </Grid>
             <Grid item md={2} xs={12}></Grid>
         </Grid>
+        </div>
 
     )
 }

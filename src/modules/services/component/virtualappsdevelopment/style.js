@@ -1,6 +1,6 @@
 export const style = {
     main: {
-        paddingLeft: "50px",
+        paddingLeft: '50px',
         paddingRight: '50px',
     },
     heading: {

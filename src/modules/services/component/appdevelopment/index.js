@@ -4,11 +4,11 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 import img2 from '../../../../assets/services-img2.png';
 import Button from '@material-ui/core/Button';
-
+import Container from '@material-ui/core/Container';
 
 function Appdevelopment() {
   return (
-    <div style={style.main}>
+    <Container style={style.main}>
       <Grid container>
         <Grid item xs={12} md={6}>
           <Typography style={style.heading1} variant="h2">
@@ -48,7 +48,7 @@ function Appdevelopment() {
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </Container>
   );
 }
 export default Appdevelopment;

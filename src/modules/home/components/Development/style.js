@@ -1,6 +1,12 @@
 import img2 from '../../../../assets/bgimage2.jpg';
 import {colors} from '../../../../commonComponents/constants/color'
 export const style = {
+   
+    main:{
+        position:'fixed',
+    },
+   
+   
     para: {
         fontSize: '19px',
         color: colors.primaryColor,
@@ -42,6 +48,7 @@ export const style = {
         marginLeft: '100px'
     },
     bgimage: {
+        
         backgroundPosition: '50% 50%',
         backgroundSize: 'cover',
         maxWidth: '100%',

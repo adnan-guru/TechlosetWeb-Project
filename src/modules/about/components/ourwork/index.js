@@ -7,15 +7,34 @@ import img3 from '../../../../assets/ourwork3.jpg';
 import img4 from '../../../../assets/ourwork4.jpg';
 import img5 from '../../../../assets/ourwork5.jpg';
 import img6 from '../../../../assets/ourwork6.jpg';
-
+import divide from '../../../../assets/divide.png';
+import Button from '@material-ui/core/Button';
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import Typography from '@material-ui/core/Typography';
 
 function Ourwork() {
     return (
+
         <Grid container style={style.bgcolor}>
-            <Grid item sm={12} xs={12}>
-            <h1 style={style.heading}>OUR WORK</h1>
-            <hr style={style.hr} />
+            <Grid item md={8}>
+                <Typography style={style.heading} variant="h1">
+                    OUR WORK
+            </Typography>
+                <Typography style={style.para}>
+                    DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP.
+            </Typography>
+                <img style={style.img2} src={divide} alt="divide" />
             </Grid>
+            <Grid item md={2}></Grid>
+            <Grid item md={2}>
+                <Button style={style.button}
+                    variant="contained"
+                    color="secondary"
+                    startIcon={<ArrowRightAltIcon />} >
+                    OUR WORK
+                         </Button>
+            </Grid>
+
             <Grid item sm={4}>
                 <img style={style.img1} src={img1} alt="" />
             </Grid>
@@ -25,6 +44,8 @@ function Ourwork() {
             <Grid item sm={4}>
                 <img style={style.img1} src={img3} alt="" />
             </Grid>
+
+
             <Grid item sm={4}>
                 <img style={style.img4} src={img4} alt="" />
             </Grid>
@@ -34,8 +55,10 @@ function Ourwork() {
             <Grid item sm={4}>
                 <img style={style.img6} src={img6} alt="" />
             </Grid>
-            </Grid>
-    
+      
+      
+        </Grid>
+
     )
 }
 export default Ourwork;

@@ -1,5 +1,5 @@
 import  Watchvideo from './component/watchvideo';
-import Ourwork from '../../commonComponents/ourwork';
+import Ourwork from '../work/component/ourwork';
 import Bigidea from '../../commonComponents/bigidea';
 
 

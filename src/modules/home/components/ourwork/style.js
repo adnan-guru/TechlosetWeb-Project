@@ -4,8 +4,12 @@ bgcolor:{
     backgroundColor:'#303745',
     left:'0px',
     right:'0px',
-    paddingLeft:'40px',
+    paddingLeft:'33px',
   
+},
+hr:{
+   marginRight:'43px',
+   
 },
 img1:{
 maxWidth:'90%',

@@ -2,8 +2,8 @@
 export const style = {
     main: {
         marginTop: '220px',
-        paddingLeft: '80px',
-        paddingRight: '80px',
+        paddingLeft: '40px',
+        paddingRight: '40px',
     },
     main2: {
         paddingTop: '30px',
@@ -18,7 +18,6 @@ export const style = {
     },
     heading1: {
         fontSize: '20px',
-        lineHeight: '3.89',
         color: '#333',
         marginLeft: '15px'
     },
@@ -78,7 +77,10 @@ export const style = {
     category2: {
         fontSize: '12px',
 
-    }
+    },
+    box1:{
+        marginTop:'10px',
+    },
 
 
 

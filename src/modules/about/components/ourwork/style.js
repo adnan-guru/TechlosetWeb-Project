@@ -1,24 +1,34 @@
 
 export const style = {
     bgcolor: {
-        left: '0px',
-        right: '0px',
-        paddingLeft: '40px',
+     
+        left:'0px',
+        right:'0px',
+        paddingLeft:'33px',
         marginTop:'50px',
 
     },
-    img1: {
-        maxWidth: '90%',
-        height: 'auto',
-        marginTop: '20px',
-
-    },
-    img2: {
-        maxWidth: '100%',
-        height: 'auto',
-        marginBottom: '30px',
-
-    },
+    img1:{
+        maxWidth:'90%',
+        height:'auto',
+        marginTop:'20px',
+        
+        },
+        img4:{
+            maxWidth:'90%',
+            height:'auto',
+           // marginTop:'20px',
+            
+            },
+        img6:{
+            maxWidth:'90%',
+            height:'auto',
+            marginTop:'20px',
+            width:'393px',
+            marginBottom:'100px',
+            
+            },
+    
     heading: {
         //fontSize: '60px',
         color: 'black',

@@ -1,7 +1,7 @@
 import React from 'react';
 import Contactus from './components/contactus';
 import Bitabout from './components/bitabout';
-import Ourwork from '../../commonComponents/ourwork';
+import Ourwork from '../about/components/ourwork';
 import Bigidea from '../../commonComponents/bigidea';
 
 function About() {
