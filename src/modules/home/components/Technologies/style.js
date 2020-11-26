@@ -3,10 +3,10 @@ const { styled } = require("@material-ui/core")
 export const style = {
   heading: {
     textAlign: 'center',
-    fontSize: '58px',
+    fontSize: '45px',
     lineheight: '1.17',
     marginTop: '50px',
-    fontWeight: '500',
+    fontWeight: '700',
     lineHeight: '70px',
   },
   text:{

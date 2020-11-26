@@ -2,7 +2,6 @@ export const style = {
     heading: {
         textAlign: 'center',
         marginTop: '30px',
-        lineHieght: '3.7',
         fontSize: '60px',
         display: 'flex',
         flexDirection: 'column',
@@ -16,6 +15,7 @@ export const style = {
         fontWieght: '400',
         lineHieght: '30px',
         marginBottom: '30px',
+        textAlign:'left'
 
     },
     para2: {
@@ -24,6 +24,7 @@ export const style = {
         fontWieght: '400',
         lineHieght: '30px',
         marginBottom: '30px',
+        textAlign:'left',
 
     },
     top: {

@@ -4,14 +4,29 @@ bgcolor:{
     backgroundColor:'#303745',
     left:'0px',
     right:'0px',
-    paddingLeft:'40px'
+    paddingLeft:'40px',
   
 },
 img1:{
 maxWidth:'90%',
 height:'auto',
+marginTop:'20px',
 
 },
+img4:{
+    maxWidth:'90%',
+    height:'auto',
+   // marginTop:'20px',
+    
+    },
+img6:{
+    maxWidth:'90%',
+    height:'auto',
+    marginTop:'20px',
+    width:'393px',
+    marginBottom:'100px',
+    
+    },
 heading:{
     fontSize: '1em',
     color: 'rgb(255, 255, 255)',

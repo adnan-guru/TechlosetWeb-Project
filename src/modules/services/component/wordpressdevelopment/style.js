@@ -1,7 +1,7 @@
 export const style={
 main:{
-    paddingLeft: "70px",
-    paddingRight: '60px',
+    paddingLeft: "40px",
+    paddingRight: '40px',
     marginTop:'100px',
 },
 img1: {
@@ -19,7 +19,7 @@ img2: {
 heading: {
     fontSize: '45px',
     color: '#323643',
-    fontWeight:'750',
+    fontWeight:'700',
     marginBottom:'20px',
 
 },

@@ -8,9 +8,8 @@ import Typography from '@material-ui/core/Typography';
 
 function Bitabout() {
     return (
-        <Grid container>
-            <Grid item md={1} xs={12}></Grid>
-            <Grid item md={5} xs={12}>
+        <Grid container style={style.main}>
+            <Grid item md={6} xs={12}>
                 <Typography style={style.heading} variant="h2">
                     A bit About Us
              </Typography>
@@ -25,13 +24,12 @@ function Bitabout() {
                     We affirm to deliver phenomenal customer experiences and deliver them at a radically lower cost.
              </Typography>
             </Grid>
-            <Grid item md={5} xs={12} style={style.alignitem}>
+            <Grid item md={6} xs={12} style={style.alignitem}>
                 <Grid item md={3}></Grid>
                 <Grid item md={9}>
                     <img style={style.img2} src={bitimg} alt="TechloSet" />
                 </Grid>
             </Grid>
-            <Grid item md={1} xs={12}></Grid>
         </Grid>
 
 

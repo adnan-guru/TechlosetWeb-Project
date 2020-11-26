@@ -10,7 +10,7 @@ export const style = {
     img1: {
         maxWidth: '90%',
         height: 'auto',
-        marginTop: '30px',
+        marginTop: '20px',
 
     },
     img2: {
