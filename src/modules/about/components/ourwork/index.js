@@ -11,10 +11,11 @@ import divide from '../../../../assets/divide.png';
 import Button from '@material-ui/core/Button';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 function Ourwork() {
     return (
-
+       <Container>
         <Grid container style={style.bgcolor}>
             <Grid item md={8}>
                 <Typography style={style.heading} variant="h1">
@@ -34,7 +35,6 @@ function Ourwork() {
                     OUR WORK
                          </Button>
             </Grid>
-
             <Grid item sm={4}>
                 <img style={style.img1} src={img1} alt="" />
             </Grid>
@@ -44,8 +44,6 @@ function Ourwork() {
             <Grid item sm={4}>
                 <img style={style.img1} src={img3} alt="" />
             </Grid>
-
-
             <Grid item sm={4}>
                 <img style={style.img4} src={img4} alt="" />
             </Grid>
@@ -55,9 +53,8 @@ function Ourwork() {
             <Grid item sm={4}>
                 <img style={style.img6} src={img6} alt="" />
             </Grid>
-      
-      
         </Grid>
+        </Container>
 
     )
 }

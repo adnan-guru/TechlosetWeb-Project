@@ -9,7 +9,7 @@ export const style = {
    
     para: {
         fontSize: '19px',
-        color: colors.primaryColor,
+        color: 'rgb(255, 255, 255)',
         letterSpacing: '2px',
         fontWeight: '300',
         lineHeight: '30px',
@@ -31,8 +31,8 @@ export const style = {
         justifyContent: 'center',
     },
     button: {
-        color: colors.primarycolor,
-        backgroundColor: '#2176ff',
+        color: 'rgb(255, 255, 255)',
+        backgroundColor: colors.secondryColor,
         fontWeight: '600',
         borderRadius: '50px',
         padding: '10px 30px 10px 20px',

@@ -10,7 +10,6 @@ main:{
     backgroundAttachment: 'fixed',
     backgroundImage: `url(${bgimg})`,
     textAlign:'center',
-    
 
 },
 para:{

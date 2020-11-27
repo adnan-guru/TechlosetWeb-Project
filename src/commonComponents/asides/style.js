@@ -3,7 +3,7 @@ export const style = {
     position: 'fixed',
      bottom: 0,
       right: 15,
-       backgroundColor: '#000'
+      backgroundColor: 'rgb(33, 118, 255)',
   },
    
     

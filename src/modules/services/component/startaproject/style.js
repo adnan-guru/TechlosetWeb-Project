@@ -1,3 +1,5 @@
+import { colors } from "../../../../commonComponents/constants/color";
+
 export const style = {
     main: {
         marginTop: '10px',
@@ -7,10 +9,9 @@ export const style = {
         height: 'auto',
         marginTop: '50px',
         marginBottom:'20px',
-       // marginLeft:'13px'
     },
     heading:{
-       backgroundColor: '#2176ff',
+       backgroundColor: colors.secondryColor,
        textAlign:'center',
        fontSize:'18px',
        color:'#fff',

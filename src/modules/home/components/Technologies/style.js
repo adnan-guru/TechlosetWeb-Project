@@ -1,35 +1,47 @@
+import { colors } from "../../../../commonComponents/constants/color"
+
 const { styled } = require("@material-ui/core")
 
 export const style = {
   heading: {
     textAlign: 'center',
-    fontSize: '45px',
+    fontSize: '57px',
     lineheight: '1.17',
     marginTop: '50px',
-    fontWeight: '700',
+    fontWeight: '500',
     lineHeight: '70px',
-  },
-  text:{
+    color: colors.infoColor,
+    },
+  text: {
     padding: '15px',
-  color:'#747a87',
-  fontSize:'18px',
-  marginLeft:'40px',
-    
+    color: colors.primaryColor,
+    fontSize: '18px',
+    marginLeft: '50px',
+    fontWeight: '400'
+
   },
-  icons:{
-    marginLeft:'50px'
+  heading2: {
+    padding: '15px',
+    color: 'black',
+    fontSize: '18px',
+    marginLeft: '40px',
+    fontWeight: '400'
+
   },
-  img1:{
-      maxWidth:'100%',
-      height:'auto',
+  icons: {
+    marginLeft: '50px'
   },
-  main:{
+  img1: {
+    maxWidth: '100%',
+    height: 'auto',
+  },
+  main: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   }
- 
-  
+
+
 
 }

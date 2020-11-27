@@ -8,13 +8,11 @@ import img4 from '../../../../assets/ourwork4.jpg';
 import img5 from '../../../../assets/ourwork5.jpg';
 import img6 from '../../../../assets/ourwork6.jpg';
 import divide from '../../../../assets/divide.png';
-import Button from '@material-ui/core/Button';
-import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import Typography from '@material-ui/core/Typography';
-
+import Container from '@material-ui/core/Container';
 function Ourwork() {
     return (
-
+         <Container>
         <Grid container style={style.bgcolor}>
             <Grid item md={12}>
                 <Typography style={style.heading} variant="h1">
@@ -50,6 +48,7 @@ function Ourwork() {
 
 
         </Grid>
+        </Container>
 
     )
 }

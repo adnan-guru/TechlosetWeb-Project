@@ -1,3 +1,5 @@
+import { colors } from "../../../../commonComponents/constants/color";
+
 export const style = {
     main: {
         paddingLeft: "30px",
@@ -6,7 +8,7 @@ export const style = {
     heading1: {
         textAlign: 'left',
         marginBottom: '30px',
-        color: '#323643',
+        color: colors.infoColor,
         fontSize: '45px',
         fontWeight: '750',
 
@@ -21,13 +23,13 @@ export const style = {
         marginTop: '70px',
     },
     list: {
-        color: '#747a87',
+        color: colors.primaryColor,
         lineHeight: '30px',
         fontSize: '18px',
         fontWeight: '400',
     },
     para: {
-        color: '#747a87',
+        color: colors.primaryColor,
         lineHeight: '30px',
         fontSize: '18px',
         fontWeight: '400',
@@ -35,7 +37,7 @@ export const style = {
         paddingTop: '30px',
     },
     button: {
-        backgroundColor: 'rgb(33, 118, 255)',
+        backgroundColor: colors.secondryColor,
         color: '#fff',
         borderRadius: '50px',
         padding: '10px 30px 10px 30px',

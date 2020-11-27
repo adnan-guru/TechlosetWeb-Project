@@ -1,3 +1,5 @@
+import { colors } from "../../../../commonComponents/constants/color";
+
 export const style = {
     heading: {
         textAlign: 'center',
@@ -5,7 +7,7 @@ export const style = {
         fontSize: ' 60px',
         lineeight: '1.17',
         marginTop: '50px',
-        color: '#323643',
+        color: colors.infoColor,
         marginBottom: '20px'
 
     },
@@ -21,15 +23,13 @@ export const style = {
         maxWidth: '100%',
         height: 'auto',
         marginTop: '25px',
-        //marginLeft:'93px',
         marginBottom: '100px',
-        //backgroundPosition: '50% 50%',
+
     },
     img2: {
         maxWidth: '50%',
         height: 'auto',
         marginTop: '60px',
-        // marginLeft:'170px',
         paddingBottom: '20px',
         backgroundPosition: '50% 50%',
     },
@@ -41,13 +41,7 @@ export const style = {
         borderColor: '#1f1f27',
         borderRadius: '25px',
         color: 'black',
-       // position: 'center',
         outline: 'none',
-        // marginLeft:'30px',
-        //display: 'flex',
-        //flexDirection: 'column',
-        //alignItems: 'center',
-        //justifyContent: 'center',
     },
     bgcolor: {
         backgroundColor: '#3972ff',
@@ -68,13 +62,14 @@ export const style = {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center',  
+        justifyContent: 'center',
     },
     alignment1: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center',       backgroundColor: '#3972ff',
+        justifyContent: 'center',
+        backgroundColor: '#3972ff',
         marginTop: '50px',
 
     },
@@ -85,7 +80,6 @@ export const style = {
         padding: '10px 30px 10px 30px',
         marginTop: '20px',
         outline: 'none',
-        //marginLeft:'240px',
         marginBottom: '50px',
         color: 'black',
         fontSize: '14px',

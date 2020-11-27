@@ -1,4 +1,5 @@
 import img1 from '../../../../assets/bgimage3.jpg';
+import { colors } from '../../../../commonComponents/constants/color';
 export const style = {
     bgimage2: {
         backgroundImage: `url(${img1})`,
@@ -35,7 +36,7 @@ export const style = {
     },
     icons: {
         backgroundPosition: '50% 50%',
-        borderColor: '#2176ff',
+        borderColor: colors.secondryColor,
         borderWidth: '1px',
         height: '90px',
         width: '90px',
@@ -54,8 +55,6 @@ export const style = {
         lineHeight: '1.25',
         fontSize: '20px',
         marginTop: '20px',
-
-
     },
     arrow: {
         width: '40px',
@@ -66,11 +65,10 @@ export const style = {
         width: '100px',
         height: '80px',
         color: '#fff',
-        // marginLeft:'290px'
     },
     services: {
         fontSize: '20px',
-        color: '#747a87',
+        color: colors.primaryColor,
         marginTop: '20px',
         marginBottom: '30px',
     },

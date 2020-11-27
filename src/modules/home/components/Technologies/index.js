@@ -43,51 +43,53 @@ export default function SimpleTabs() {
   };
   return (
     <div >
-       <Grid container >
-            <Grid item md={12}>
-                <h2 style={style.heading}>Technologies we work with</h2>
-            </Grid>
-            </Grid>
-            
+      <Grid container >
+        <Grid item md={12}>
+          <h2 style={style.heading}>Technologies we work with</h2>
+        </Grid>
+      </Grid>
+
       <div style={style.main}>
         <Tabs
           value={value}
           onChange={handleChange}
           variant="scrollable"
           scrollButtons="on"
-        //   indicatorColor="primary"
-        //   textColor="primary"
-        //   aria-label="scrollable force tabs example"
         >
-          <Tab label="Mobie" icon={<PhoneAndroidIcon />} {...a11yProps(0)} />
-          <Tab label="Web" icon={<PhoneAndroidIcon />} {...a11yProps(1)} />
-          <Tab label="Artificial Integence" icon={<AcUnitIcon />} {...a11yProps(2)} />
-          <Tab label="DevOps" icon={<ComputerIcon />} {...a11yProps(3)} />
-          <Tab label="WordPress" icon={< ShoppingBasket />} {...a11yProps(4)} />
-       
+          <Tab style={style.heading2} label="Mobie" icon={<PhoneAndroidIcon />} {...a11yProps(0)} />
+          <Tab style={style.heading2} label="Web" icon={<PhoneAndroidIcon />} {...a11yProps(1)} />
+          <Tab style={style.heading2} label="Artificial Integence" icon={<AcUnitIcon />} {...a11yProps(2)} />
+          <Tab style={style.heading2} label="DevOps" icon={<ComputerIcon />} {...a11yProps(3)} />
+          <Tab style={style.heading2} label="WordPress" icon={< ShoppingBasket />} {...a11yProps(4)} />
+
         </Tabs>
       </div>
       <Grid container>
-          <Grid item md={2} xs={2}></Grid>
-          <Grid item md={8} xs={8}>
-      <TabPanel value={value} index={0}>
-      <img style={style.img1} src={img1} alt="" />
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-      <img style={style.img1} src={img2} alt="" />
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-      </TabPanel>
-      <TabPanel style={style.text} value={value} index={3}>
-      Your Content Goes Here
-      </TabPanel>
-      <TabPanel style={style.text} value={value} index={4}>
-      Your Content Goes Here
-      </TabPanel>
+        <Grid item md={1} xs={1}></Grid>
+        <Grid item md={10} xs={10}>
+          <TabPanel value={value} index={0}>
+            <img style={style.img1} src={img1} alt="" />
+          </TabPanel>
+          <TabPanel value={value} index={1}>
+            <img style={style.img1} src={img2} alt="" />
+          </TabPanel>
+          <TabPanel value={value} index={2}>
+          </TabPanel>
+          <TabPanel value={value} index={3}>
+            <Typography style={style.text} variant="subtitle1">
+              Your Content Goes Here
+        </Typography>
+
+          </TabPanel>
+          <TabPanel value={value} index={4}>
+            <Typography style={style.text} variant="subtitle1">
+              Your Content Goes Here
+        </Typography>
+          </TabPanel>
+        </Grid>
+        <Grid item md={1} xs={1}></Grid>
       </Grid>
-      <Grid item md={2} xs={2}></Grid>
-  </Grid>
-  
+
     </div>
   );
 }

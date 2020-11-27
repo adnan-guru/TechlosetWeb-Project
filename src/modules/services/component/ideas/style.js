@@ -1,4 +1,5 @@
 import bgimg from '../../../../assets/bgimage3.jpg';
+import { colors } from '../../../../commonComponents/constants/color';
 export const style = {
     bgimage: {
         backgroundImage: `url(${bgimg})`,
@@ -16,12 +17,12 @@ export const style = {
         marginTop: '150px',
         fontSize: '42px',
         lineHeight: '1.5',
-        color: '#323643',
+        color: colors.infoColor,
         fontWeight: '700',
     },
 
     bgcolor: {
-        backgroundColor: '#3972ff',
+        backgroundColor: colors.secondryColor,
 
     },
     para: {

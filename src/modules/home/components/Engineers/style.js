@@ -1,3 +1,5 @@
+import { colors } from "../../../../commonComponents/constants/color";
+
 export const style = {
     heading: {
         textAlign: 'center',
@@ -7,10 +9,11 @@ export const style = {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        color:colors.infoColor,
     },
     para1: {
         marginTop: '50px',
-        color: '#747a87',
+        color: colors.primaryColor,
         fontSize: '18px',
         fontWieght: '400',
         lineHieght: '30px',
@@ -19,7 +22,7 @@ export const style = {
 
     },
     para2: {
-        color: '#747a87',
+        color: colors.primaryColor,
         fontSize: '18px',
         fontWieght: '400',
         lineHieght: '30px',
@@ -36,7 +39,7 @@ export const style = {
         textDecoration: 'none',
     },
     button: {
-        backgroundColor: '#2176ff',
+        backgroundColor: colors.secondryColor,
         fontWeight: '400',
         lineHieght: '10px',
         borderRadius: '50px',

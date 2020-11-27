@@ -1,30 +1,28 @@
+import { colors } from "../../../../commonComponents/constants/color";
 export const style = {
     main:{
-        paddingLeft:'40px',
-        paddingRight:'40px',
+        paddingLeft:'20px',
+        paddingRight:'20px',
     },
     heading: {
         fontSize: '60px',
         textAlign: 'left',
         fontWeight: '500',
         marginTop: '80px',
-        marginBottom: '50px',
-     
-        
+        marginBottom: '50px', 
+        color:colors.infoColor,
     },
     img: {
         maxWidth: '100%',
         height: 'auto',
+      
         marginBottom: '30px',
-
-
     },
     img2: {
         maxWidth: '100%',
         height: 'auto',
+        
         marginTop: '30px',
-        // marginTop:'100px',
-
     },
     alignitem: {
         display: 'flex',
@@ -33,7 +31,7 @@ export const style = {
         justifyContent: 'center',
     },
     para: {
-        color: '#747a87',
+        color: colors.primaryColor,
         lineHeight: '30px',
         fontSize: '18px',
         fontWeight: '400',

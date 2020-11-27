@@ -1,3 +1,4 @@
+import {colors} from '../../../../commonComponents/constants/color'
 export const style={
 main:{
     paddingLeft: "30px",
@@ -18,7 +19,7 @@ img2: {
 },
 heading: {
     fontSize: '45px',
-    color: '#323643',
+    color: colors.infoColor,
     fontWeight:'700',
     marginBottom:'20px',
 
@@ -27,11 +28,11 @@ para: {
     fontWeight: '300',
     letterSpacing: '2px',
     fontSize: '16px',
-    color: '#747a87',
+    color: colors.primaryColor,
     marginBottom: '30px',
 },
 para2: {
-    color: '#747a87',
+    color: colors.primaryColor,
     lineHeight: '30px',
     fontSize: '18px',
     fontWeight: '400',

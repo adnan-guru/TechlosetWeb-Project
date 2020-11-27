@@ -4,10 +4,11 @@ import Grid from '@material-ui/core/Grid';
 import img from '../../../../assets/divide.png';
 import bitimg from '../../../../assets/bitimg.png';
 import Typography from '@material-ui/core/Typography';
-
+import Container from '@material-ui/core/Container';
 
 function Bitabout() {
     return (
+        <Container>
         <Grid container style={style.main}>
             <Grid item md={6} xs={12}>
                 <Typography style={style.heading} variant="h2">
@@ -31,7 +32,7 @@ function Bitabout() {
                 </Grid>
             </Grid>
         </Grid>
-
+        </Container>
 
     )
 }

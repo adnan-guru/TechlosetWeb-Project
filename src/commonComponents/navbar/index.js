@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
 
-    <AppBar style={style.root} position="fixed">
+    <AppBar style={style.main} position="fixed">
       <Toolbar>
         <img style={style.imglogo} src={logo} alt="logo" />
         <Hidden only="xs">

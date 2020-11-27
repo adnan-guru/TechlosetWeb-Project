@@ -1,7 +1,7 @@
+import { colors } from "../../../../commonComponents/constants/color";
 
 export const style = {
     bgcolor: {
-     
         left:'0px',
         right:'0px',
         paddingLeft:'33px',
@@ -15,10 +15,9 @@ export const style = {
         
         },
         img4:{
+            marginTop:'20px',
             maxWidth:'90%',
             height:'auto',
-           // marginTop:'20px',
-            
             },
         img6:{
             maxWidth:'90%',
@@ -26,11 +25,9 @@ export const style = {
             marginTop:'20px',
             width:'393px',
             marginBottom:'100px',
-            
             },
     
     heading: {
-        //fontSize: '60px',
         color: 'black',
         fontSize: '36px',
         lineHeight: '1.4',
@@ -42,11 +39,11 @@ export const style = {
         fontWeight: '300',
         letterSpacing: '2px',
         fontSize: '16px',
-        color: '#747a87',
+        color: colors.primaryColor,
         marginBottom: '30px',
     },
     button: {
-        backgroundColor: '#2176ff',
+        backgroundColor: colors.secondryColor,
         fontWeight: '400',
         lineHieght: '10px',
         borderRadius: '50px',

@@ -1,4 +1,4 @@
-
+import {colors} from '../../../../commonComponents/constants/color'
 export const style = {
     bgcolor: {
      
@@ -15,10 +15,9 @@ export const style = {
         
         },
         img4:{
+            marginTop:'20px',
             maxWidth:'90%',
             height:'auto',
-           // marginTop:'20px',
-            
             },
         img6:{
             maxWidth:'90%',
@@ -30,7 +29,6 @@ export const style = {
             },
     
     heading: {
-        //fontSize: '60px',
         color: 'black',
         fontSize: '36px',
         lineHeight: '1.4',
@@ -42,7 +40,7 @@ export const style = {
         fontWeight: '300',
         letterSpacing: '2px',
         fontSize: '16px',
-        color: '#747a87',
+        color: colors.primaryColor,
         marginBottom: '30px',
     },
     button: {

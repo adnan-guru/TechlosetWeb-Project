@@ -1,6 +1,8 @@
+import { colors } from "../constants/color";
+
 export const style={
 bgcolor:{
-    backgroundColor:'#3972ff',
+    backgroundColor:colors.secondryColor,
     marginTop:'80px',
 },
 para:{
