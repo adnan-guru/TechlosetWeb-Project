@@ -11,12 +11,12 @@ import Blog from './components/blog';
 function Home() {
     return (
         <div className="home">
-            <Development />
-            <Engineers />
+              <Development />
+             <Engineers />
             <Developmentoffering />
             <Technologie />
             <Ourwork />
-            <Blog />
+            <Blog /> 
         </div>
     );
 }

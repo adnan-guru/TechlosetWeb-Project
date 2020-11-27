@@ -16,7 +16,9 @@ function Startaproject() {
       <Grid container>
 <Grid item md={12} xs={12} tyle={style.top}>
   <a style={style.heading} href="#">
-<p style={style.heading}>LET’S START A PROJECT!</p>
+    <Typography style={style.heading} variant="subtitle1">
+    LET’S START A PROJECT!
+    </Typography>
 </a>
 </Grid>
       </Grid>

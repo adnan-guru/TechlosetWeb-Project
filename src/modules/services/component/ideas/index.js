@@ -12,7 +12,7 @@ function Ideas() {
 
         <Grid container >
             <Grid item md={12} style={style.bgimage}  >
-carosel
+              {/* slider */}
 
             </Grid>
             <Grid item md={12} style={style.bgcolor}>

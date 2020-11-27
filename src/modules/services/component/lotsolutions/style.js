@@ -1,24 +1,22 @@
 export const style = {
     main: {
-        paddingLeft: "50px",
-        paddingRight: '50px',
+        paddingLeft: "30px",
+        paddingRight: '30px',
     },
     heading1: {
         textAlign: 'left',
-        marginBottom: '30px',
         color: '#323643',
         fontSize: '45px',
         fontWeight: '750',
 
     },
     top: {
-        marginTop: '100px'
+        marginTop: '80px'
     },
     img: {
         maxWidth: '100%',
         width: '570px',
-        height: '600px',
-        padding: '0px',
+        height: 'auto',
     },
     imgtop: {
         paddingTop: '90px'
@@ -34,8 +32,8 @@ export const style = {
         lineHeight: '30px',
         fontSize: '18px',
         fontWeight: '400',
-        marginBottom: '30px',
-        paddingTop: '30px',
+        marginBottom: '10px',
+        paddingTop: '10px',
     },
     button: {
         backgroundColor: 'rgb(33, 118, 255)',

@@ -15,10 +15,10 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
     list: {
-        width: 370,
+        width: 200,
         height: 300,
         backgroundColor: 'rgb(50,54,67)',
-        paddingLeft: '100px',
+        paddingLeft: '20px',
         opacity:'0.9',
         
 
@@ -43,7 +43,7 @@ export default function SwipeableTemporaryDrawer() {
         event
     ) => {
 
-        setState({ ...state, top: open });
+        setState({ ...state, left: open });
     };
 
     const list = (anchor) => (
@@ -85,16 +85,16 @@ export default function SwipeableTemporaryDrawer() {
 
     return (
         <div>
-            <ReorderSharpIcon style={style.icon} onClick={toggleDrawer("top", true)} />
+            <ReorderSharpIcon style={style.icon} onClick={toggleDrawer("left", true)} />
 
-            <React.Fragment key={"top"}>
+            <React.Fragment key={"left"}>
                 <SwipeableDrawer
-                    anchor={"top"}
-                    open={state["top"]}
-                    onClose={toggleDrawer("top", false)}
-                    onOpen={toggleDrawer("top", true)}
+                    anchor={"left"}
+                    open={state["left"]}
+                    onClose={toggleDrawer("left", false)}
+                    onOpen={toggleDrawer("left", true)}
                 >
-                    {list("top")}
+                    {list("left")}
                 </SwipeableDrawer>
             </React.Fragment>
         </div>

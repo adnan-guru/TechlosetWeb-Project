@@ -1,11 +1,11 @@
 export const style = {
     main: {
-        paddingLeft: '50px',
-        paddingRight: '50px',
+        paddingLeft: '30px',
+        paddingRight: '30px',
     },
     heading: {
         textAlign: 'left',
-        marginTop: '80px',
+        marginTop: '40px',
         marginBottom: '50px',
         color: '#323643',
         fontSize:'45px',
@@ -14,7 +14,7 @@ export const style = {
     img2: {
         maxWidth: '100%',
         width: '590px',
-        height: '590px',
+        height: 'auto',
         marginTop: '50px',
         padding: '0px',
 

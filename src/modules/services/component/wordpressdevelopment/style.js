@@ -1,7 +1,7 @@
 export const style={
 main:{
-    paddingLeft: "40px",
-    paddingRight: '40px',
+    paddingLeft: "30px",
+    paddingRight: '30px',
     marginTop:'100px',
 },
 img1: {

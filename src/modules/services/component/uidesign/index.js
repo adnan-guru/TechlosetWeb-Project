@@ -4,15 +4,13 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 import img4 from '../../../../assets/services-img4.png';
 import Button from '@material-ui/core/Button';
-
+import Container from '@material-ui/core/Container';
 
 function Uidesing() {
   return (
-    <div style={style.main}>
-      <Grid container spacing={0}>
-        <Grid item xs={12} sm={6}>
-          <Grid container>
-            <Grid item md={11}>
+    <Container style={style.main}>
+      <Grid container >
+            <Grid item md={12} md={6}>
               <Typography style={style.heading} variant="h2">
                 UI/UX Design
           </Typography>
@@ -41,16 +39,16 @@ function Uidesing() {
       </Button>
               </Grid>
             </Grid>
-            <Grid item md={1}></Grid>
-          </Grid>
-        </Grid>
         <Grid item xs={12} sm={6}>
-          <Grid item md={12} xs={12}>
-            <img style={style.img2} src={img4} alt="" />
+          <Grid Container>
+            <Grid item md={1} xs={12}></Grid>
+            <Grid item md={11} xs={12}>
+              <img style={style.img2} src={img4} alt="" />
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </Container>
   );
 }
 export default Uidesing;

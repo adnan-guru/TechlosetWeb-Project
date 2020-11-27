@@ -4,11 +4,12 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 import img7 from '../../../../assets/services-img7.jpg';
 import Button from '@material-ui/core/Button';
+import Container from '@material-ui/core/Container';
 
 
 function Lotsolutions() {
   return (
-    <div style={style.main}>
+    <Container style={style.main}>
       <Grid container spacing={0}>
         <Grid item xs={12} sm={6} style={style.imgtop}>
           <img style={style.img} src={img7} alt="" />
@@ -45,7 +46,7 @@ function Lotsolutions() {
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </Container>
   );
 }
 export default Lotsolutions;

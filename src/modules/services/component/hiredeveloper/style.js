@@ -1,7 +1,7 @@
 export const style = {
     main: {
-        paddingLeft: "50px",
-        paddingRight: '50px',
+        paddingLeft: "30px",
+        paddingRight: '30px',
     },
     heading1: {
         textAlign: 'left',
@@ -12,14 +12,13 @@ export const style = {
 
     },
     top: {
-        marginTop: '100px'
+        marginTop: '60px'
     },
     img: {
         maxWidth: '100%',
         width: '570px',
-        height: '580px',
-        marginTop: '50px',
-        padding: '0px',
+        height: 'auto',
+        marginTop: '70px',
     },
     list: {
         color: '#747a87',

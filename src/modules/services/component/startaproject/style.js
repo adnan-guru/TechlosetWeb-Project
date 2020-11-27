@@ -7,6 +7,7 @@ export const style = {
         height: 'auto',
         marginTop: '50px',
         marginBottom:'20px',
+       // marginLeft:'13px'
     },
     heading:{
        backgroundColor: '#2176ff',

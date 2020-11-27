@@ -4,11 +4,12 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 import divide from '../../../../assets/divide.png';
 import img13 from '../../../../assets/services-img13.jpg';
+import {Container} from '@material-ui/core';
 
 
 function Wordpressdevelopment() {
     return (
-        <div style={style.main}>
+        <Container  style={style.main}>
             <Grid container>
                 <Grid item md={6} xs={12}>
                     <Typography style={style.heading} variant="h2">
@@ -27,7 +28,7 @@ function Wordpressdevelopment() {
                 </Grid>
 
             </Grid>
-        </div>
+        </Container>
     )
 }
 export default Wordpressdevelopment;

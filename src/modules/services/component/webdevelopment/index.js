@@ -4,11 +4,11 @@ import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography';
 import img3 from '../../../../assets/services-img3.jpg';
 import Button from '@material-ui/core/Button';
-
+import Container from '@material-ui/core/Container';
 
 function Webdevelopment() {
   return (
-    <div style={style.main}>
+    <Container style={style.main}>
       <Grid container spacing={0}>
         <Grid item xs={12} sm={6}>
           <Grid container>
@@ -45,7 +45,7 @@ function Webdevelopment() {
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </Container>
   );
 }
 export default Webdevelopment;

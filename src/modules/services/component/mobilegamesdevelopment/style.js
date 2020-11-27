@@ -1,7 +1,7 @@
 export const style = {
     main: {
-        paddingLeft: "50px",
-        paddingRight: '50px',
+        paddingLeft: "30px",
+        paddingRight: '30px',
     },
     heading1: {
         textAlign: 'left',
@@ -18,7 +18,7 @@ export const style = {
     img: {
         maxWidth: '100%',
         width: '570px',
-        height: '580px',
+        height: 'auto',
         marginTop: '50px',
         padding: '0px',
     },

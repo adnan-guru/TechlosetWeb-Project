@@ -5,7 +5,7 @@ export const style = {
         backgroundPosition: '50% 50%',
         backgroundSize: 'cover',
         maxWidth: '100%',
-        height: ' 600px',
+        height: ' 300px',
         width: '100%',
         minHeight: '150px',
         backgroundRepeat: 'no-repeat',

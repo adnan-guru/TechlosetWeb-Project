@@ -1,13 +1,13 @@
 export const style = {
     main: {
-        paddingLeft: "50px",
-        paddingRight: '50px',
+        paddingLeft: "30px",
+        paddingRight: '30px',
         marginTop: '40px',
     },
     heading: {
         textAlign: 'left',
-        marginTop: '70px',
-        marginBottom: '30px',
+        marginTop: '30px',
+        marginBottom: '10px',
         color: '#323643',
         fontSize:'45px',
         fontWeight:'750',
@@ -15,7 +15,7 @@ export const style = {
     img2: {
         maxWidth: '100%',
         width: '590px',
-        height: '590px',
+        height: 'auto',
         marginTop: '50px',
         padding: '0px',
 
@@ -32,7 +32,7 @@ export const style = {
         lineHeight: '30px',
         fontSize: '18px',
         fontWeight: '400',
-        marginBottom: '30px',
+        marginBottom: '10px',
     },
     button: {
         backgroundColor: 'rgb(33, 118, 255)',
