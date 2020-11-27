@@ -1,4 +1,4 @@
-import { colors } from "../../../../commonComponents/constants/color";
+import { colors } from '../../../../constants/color';
 
 export const style = {
     main: {

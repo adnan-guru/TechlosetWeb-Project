@@ -1,5 +1,5 @@
 import img2 from '../../../../assets/bgimage2.jpg';
-import {colors} from '../../../../commonComponents/constants/color'
+import { colors } from '../../../../constants/color';
 export const style = {
    
     main:{

@@ -1,5 +1,5 @@
 import img1 from '../../../../assets/bgimage3.jpg';
-import { colors } from '../../../../commonComponents/constants/color';
+import { colors } from '../../../../constants/color';
 export const style = {
     bgimage2: {
         backgroundImage: `url(${img1})`,

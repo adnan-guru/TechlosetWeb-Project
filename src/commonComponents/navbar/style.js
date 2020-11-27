@@ -1,4 +1,4 @@
-import  { colors } from '../constants/color';
+import { colors } from '../../constants/color';
 export const style={
     main: {
         backgroundColor: 'rgb(50,54,67)',

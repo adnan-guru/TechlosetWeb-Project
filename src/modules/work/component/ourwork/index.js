@@ -1,12 +1,7 @@
 import React from 'react';
 import { style } from './style.js'
 import Grid from '@material-ui/core/Grid';
-import img1 from '../../../../assets/ourwork1.jpg';
-import img2 from '../../../../assets/ourwork2.jpg';
-import img3 from '../../../../assets/ourwork3.jpg';
-import img4 from '../../../../assets/ourwork4.jpg';
-import img5 from '../../../../assets/ourwork5.jpg';
-import img6 from '../../../../assets/ourwork6.jpg';
+import images from '../../../../constants/images'
 import divide from '../../../../assets/divide.png';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
@@ -26,24 +21,22 @@ function Ourwork() {
 
 
             <Grid item sm={4}>
-                <img style={style.img1} src={img1} alt="" />
+                <img style={style.img1} src={images.img1} alt="" />
             </Grid>
             <Grid item sm={4}>
-                <img style={style.img1} src={img2} alt="" />
+                <img style={style.img1} src={images.img2} alt="" />
             </Grid>
             <Grid item sm={4}>
-                <img style={style.img1} src={img3} alt="" />
-            </Grid>
-
-
-            <Grid item sm={4}>
-                <img style={style.img4} src={img4} alt="" />
+                <img style={style.img1} src={images.img3} alt="" />
             </Grid>
             <Grid item sm={4}>
-                <img style={style.img1} src={img5} alt="" />
+                <img style={style.img4} src={images.img4} alt="" />
             </Grid>
             <Grid item sm={4}>
-                <img style={style.img6} src={img6} alt="" />
+                <img style={style.img1} src={images.img5} alt="" />
+            </Grid>
+            <Grid item sm={4}>
+                <img style={style.img6} src={images.img6} alt="" />
             </Grid>
 
 

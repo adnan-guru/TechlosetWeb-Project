@@ -1,7 +1,5 @@
-import { colors } from "../../../../commonComponents/constants/color"
 
-const { styled } = require("@material-ui/core")
-
+import { colors } from '../../../../constants/color';
 export const style = {
   heading: {
     textAlign: 'center',
