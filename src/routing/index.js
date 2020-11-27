@@ -12,10 +12,13 @@ import {
   } from "react-router-dom";
 import Navbar from '../commonComponents/navbar';
 import Footer from '../commonComponents/footer';
+import Asides from '../commonComponents/asides';
 
 function App(){
     return(
+     
 <Router>
+    <Asides />
     <Navbar />
       <Switch>
       <Route exact path="/">

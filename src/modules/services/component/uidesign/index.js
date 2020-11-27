@@ -40,7 +40,7 @@ function Uidesing() {
               </Grid>
             </Grid>
         <Grid item xs={12} sm={6}>
-          <Grid Container>
+          <Grid container>
             <Grid item md={1} xs={12}></Grid>
             <Grid item md={11} xs={12}>
               <img style={style.img2} src={img4} alt="" />
