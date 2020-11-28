@@ -8,6 +8,7 @@ import Blog from './components/blog';
 
 
 
+
 function Home() {
     return (
         <div className="home">
@@ -17,6 +18,7 @@ function Home() {
             <Technologie />
             <Ourwork />
             <Blog /> 
+            
         </div>
     );
 }

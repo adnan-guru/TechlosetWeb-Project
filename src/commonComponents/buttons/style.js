@@ -4,7 +4,7 @@ export const style={
     button:{
         backgroundColor:'rgb(33, 118, 255)',
         color:'black',
-        fontWeight:'700',
+        fontWeight:'400',
         borderRadius:'50px',
         padding: '10px 30px 10px 30px',
         outline:'none',

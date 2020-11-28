@@ -3,10 +3,10 @@ import { colors } from '../../../../constants/color';
 export const style = {
   heading: {
     textAlign: 'center',
-    fontSize: '57px',
+    fontSize: '50px',
     lineheight: '1.17',
     marginTop: '50px',
-    fontWeight: '500',
+    fontWeight: '600',
     lineHeight: '70px',
     color: colors.infoColor,
     },

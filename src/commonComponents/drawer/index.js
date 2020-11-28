@@ -10,18 +10,14 @@ import { style } from './style.js';
 import { Link } from 'react-router-dom';
 
 
-
-
-
 const useStyles = makeStyles({
     list: {
         width: 200,
-        height: 300,
+        height: 600,
         backgroundColor: 'rgb(50,54,67)',
-        paddingLeft: '20px',
+        padding: '20px',
         opacity:'0.9',
         
-
     },
     fullList: {
         // width: 250,
@@ -30,7 +26,7 @@ const useStyles = makeStyles({
 
 const type = 'top' | 'left' | 'bottom' | 'right';
 
-export default function SwipeableTemporaryDrawer() {
+export default function Drawer() {
     const classes = useStyles();
     const [state, setState] = React.useState({
         top: false,
@@ -56,7 +52,7 @@ export default function SwipeableTemporaryDrawer() {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-
+            
                 <ListItem button key={"home"}>
                     <Link to="/" style={style.toplink} >HOME</Link>
                 </ListItem>
@@ -76,7 +72,7 @@ export default function SwipeableTemporaryDrawer() {
                     <Link to="/jobs" style={style.toplink} >JOBS</Link>
                 </ListItem>
                 <ListItem>
-                <Link to="/jobs" style={style.toplink} >CONTACT US</Link>
+                <Link to="/contactus" style={style.toplink} >CONTACT US</Link>
                 </ListItem>
             </List>
             <Divider />

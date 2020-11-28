@@ -28,9 +28,9 @@ export default function Navbar() {
           <Link to="/blog" style={style.toplink} >BLOG</Link>
           <Link to="/services" style={style.toplink} >SERVICES</Link>
           <Link to="/jobs" style={style.toplink} >JOBS</Link>
-          <Button style={style.button} variant="contained" color="primary">
-            CONTACT US
-      </Button>
+          <Link to="/contactus" style={style.contact}>
+          CONTACT US
+         </Link>
         </Hidden>
 
         <Hidden only={['sm', 'md', 'lg']}>

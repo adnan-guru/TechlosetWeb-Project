@@ -5,6 +5,7 @@ import Work from '../modules/work';
 import Blog from '../modules/blog';
 import Services from '../modules/services';
 import Jobs from '../modules/jobs';
+import Contactus from '../modules/contactus';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,6 +14,7 @@ import {
 import Navbar from '../commonComponents/navbar';
 import Footer from '../commonComponents/footer';
 import Asides from '../commonComponents/asides';
+
 
 function App(){
     return(
@@ -38,6 +40,9 @@ function App(){
         </Route>
         <Route path="/jobs">
           <Jobs />
+        </Route>
+        <Route path="/contactus">
+          <Contactus />
         </Route>
       </Switch>
       <Footer />

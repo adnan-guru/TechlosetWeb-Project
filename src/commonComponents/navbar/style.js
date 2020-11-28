@@ -20,15 +20,17 @@ export const style={
           fontSize:'14px',
           textDecoration:'none',
       },
-      button:{
+      contact:{
         backgroundColor:colors.secondryColor,
         color:'#fff',
-        fontWeight:'700',
+        fontWeight:'400',
         borderRadius:'50px',
         padding: '10px 30px 10px 30px',
         outline:'none',
         fontSize:'14px',
         lineHeight:'17px',
+        textDecoration:'none',
       },
+    
 }
 
