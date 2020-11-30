@@ -6,10 +6,14 @@ import Button from '@material-ui/core/Button';
 import logo from '../../../../assets/logo.png';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import Typography from '@material-ui/core/Typography';
+import {Link,useHistory} from 'react-router-dom';
 
 
-
-function Blog() {
+function Blog(props) {
+    const history = useHistory();
+    const goToPage = ()=>{
+        history.push(props.to)
+    }
     return (
         
         <Grid container>
@@ -25,23 +29,27 @@ function Blog() {
             <Grid item md={2}></Grid>
             <Grid item md={12} xs={12} style={style.alignment2}>
                 <img style={style.img} src={divide} alt="" />
+             <a href="#"  style={style.textdec}>
                 <Button style={style.button}
                     variant="contained"
                     color="secondary">
                     ALL ARTICLES
                          </Button>
+                      </a>  
             </Grid>
             <Grid item md={12} xs={12} style={style.alignment1}>
                 <img style={style.img2} src={logo} alt="" />
                 <Typography  style={style.para2}>
                 DO YOU HAVE A BIG IDEA WE CAN HELP WITH?
                 </Typography>
-                <Button style={style.button2}
+                <Link to="/contactus" style={style.textdec}>
+                <Button onClick={goToPage} style={style.button2}
                     variant="contained"
                     color="secondary"
                     startIcon={<PlayArrowIcon />} >
                     Contact Us
                          </Button>
+                         </Link>
             </Grid>
             </Grid>
      

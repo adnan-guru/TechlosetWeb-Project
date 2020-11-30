@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import PhoneEnabledIcon from '@material-ui/icons/PhoneEnabled';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import SendIcon from '@material-ui/icons/Send';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 function Contactus() {
     return (
@@ -65,39 +64,39 @@ function Contactus() {
                             </select>
                         </Grid>
                         <Grid col md={12} xs={12}>
-                        <textarea style={style.option}  cols="40" rows="10"  placeholder="Brief About The Project" />
+                            <textarea style={style.option} cols="40" rows="10" placeholder="Brief About The Project" />
                         </Grid>
                         <Grid col md={12} xs={12}>
                         </Grid>
-                        <input  style={style.contact} type="submit" value="LET'S TALK" />
-                       </Grid>
+                        <input style={style.contact} type="submit" value="LET'S TALK" />
+                    </Grid>
                 </Grid>
                 <Grid item md={1} xs={1}></Grid>
             </Grid>
             <Grid container style={style.footer}>
                 <Grid item md={1} x={12}></Grid>
-           <Grid item md={3} x={12}>
-               < PhoneEnabledIcon style={style.icons}  />
-               <Typography style={style.iconcontect} variant="h2">
-               +92-306-0008208
+                <Grid item md={3} x={12}>
+                    < PhoneEnabledIcon style={style.icons} />
+                    <Typography style={style.iconcontect} variant="h2">
+                        +92-306-0008208
                </Typography>
 
-           </Grid>
-           <Grid item md={3} xs={12}>
-           < TwitterIcon  style={style.icons}  />
-               <Typography style={style.iconcontect} variant="h2">
-               Tweet Us
+                </Grid>
+                <Grid item md={3} xs={12}>
+                    < TwitterIcon style={style.icons} />
+                    <Typography style={style.iconcontect} variant="h2">
+                        Tweet Us
                </Typography>
-           </Grid>
-           <Grid item md={3} xs={12}>
-           < MailOutlineIcon style={style.icons}  />
-               <Typography style={style.iconcontect} variant="h2">
-               Email Us
+                </Grid>
+                <Grid item md={3} xs={12}>
+                    < MailOutlineIcon style={style.icons} />
+                    <Typography style={style.iconcontect} variant="h2">
+                        Email Us
                </Typography>
-           </Grid>
-           <Grid item md={1} xs={12}></Grid>
+                </Grid>
+                <Grid item md={1} xs={12}></Grid>
             </Grid>
-            
+
         </Grid>
 
     )

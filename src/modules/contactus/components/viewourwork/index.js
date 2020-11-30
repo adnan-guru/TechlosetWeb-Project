@@ -6,7 +6,10 @@ import Typography from '@material-ui/core/Typography';
 
 
 
+
+
 function Contactus(){
+  
     return(
     <Grid container>
         <Grid  style={style.main} container>
@@ -15,8 +18,8 @@ function Contactus(){
          <Typography style={style.para}>
           TechloSet transforms small businesses into agile organizations. We do not just develop products, but innovate, as well.
           </Typography>
-         <br />
-          <Buttons title="VIEW OUR WORK"  text="#fff"/>
+         <br /> 
+          <Buttons title="VIEW OUR WORK" text="#fff"  to="/work" />
          </Grid>
          <Grid item md={2}  xs={2}></Grid>
         </Grid>

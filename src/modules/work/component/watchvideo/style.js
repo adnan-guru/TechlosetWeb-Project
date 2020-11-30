@@ -29,7 +29,10 @@ para:{
 },
 button:{
     marginTop:'30px',
-}
+},
+textdec:{
+    textDecoration:'none'
+},
 
 
 

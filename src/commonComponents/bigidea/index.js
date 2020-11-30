@@ -17,7 +17,7 @@ export default function Bigidea() {
       </Grid>
       <Grid item md={5} xs={12}></Grid>
       <Grid item md={2} xs={12} style={style.button}>
-        <Buttons title="CONTACT US" color="#fff" />
+        <Buttons title="CONTACT Us" color="#fff" to="/contactus" />
       </Grid>
       <Grid item md={5} xs={12}></Grid>
     </Grid>

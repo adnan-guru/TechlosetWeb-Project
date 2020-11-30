@@ -2,7 +2,7 @@ import React from 'react';
 import { style } from './style.js';
 import Grid from '@material-ui/core/Grid';
 import Buttons from '../../../../commonComponents/buttons';
-import { Typography } from '@material-ui/core';
+import { Link, Typography } from '@material-ui/core';
 
 
 function Watchvideo() {
@@ -14,7 +14,9 @@ function Watchvideo() {
                     WATCH THE VIDEO FOR OUR CREATIVE PROCESS
              </Typography>
                 <br />
+                <Link style={style.textdec}  target="_self" href="https://player.vimeo.com/video/106306926?autoplay=1&amp;color=ffffff">
                 <Buttons title="watch video" text="#fff" />
+              </Link>
             </Grid>
             <Grid item md={2} xs={2}></Grid>
         </Grid>

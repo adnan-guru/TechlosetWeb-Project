@@ -3,7 +3,7 @@ import { style } from './style.js';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 import divide from '../../../../assets/divide.png';
-import Button from '@material-ui/core/Button';
+import Buttons from '../../../../commonComponents/buttons';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 
 
@@ -32,11 +32,8 @@ function Articles() {
                     DO YOU HAVE A BIG IDEA WE CAN HELP WITH?
                </Typography>
                 <Grid item md={12} style={style.alignitem}>
-                    <Button style={style.button} variant="contained" color="primary">
-                    {<PlayArrowIcon />}
-                        CONTACT US
-                        
-               </Button>
+                    
+                    <Buttons title="CONTACT US" color="#fff"  to="/contactus"/>
                 </Grid>
             </Grid>
         </Grid>

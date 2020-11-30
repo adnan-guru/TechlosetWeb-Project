@@ -3,6 +3,9 @@ export const style = {
     main: {
         marginTop: '10px',
     },
+    textdec:{
+        textDecoration:'none'
+    },
     img2: {
         maxWidth: '100%',
         height: 'auto',

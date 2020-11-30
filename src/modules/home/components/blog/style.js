@@ -85,6 +85,9 @@ export const style = {
         fontSize: '14px',
         lineHeight: '17px',
     },
+    textdec:{
+        textDecoration:'none',
+    }
 
 
 

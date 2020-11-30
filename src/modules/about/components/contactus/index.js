@@ -11,7 +11,7 @@ function Contactus(){
          <Grid item md={8}  xs={12}>
           <h3 style={style.para}>TechloSet transforms small businesses into agile organizations. We do not just develop products, but innovate, as well.</h3>
          <br />
-          <Buttons title="CONTACT US"  text="#fff"/>
+          <Buttons title="CONTACT US"  text="#fff" to="/contactus" />
          </Grid>
          <Grid item md={2}  xs={2}></Grid>
         </Grid>

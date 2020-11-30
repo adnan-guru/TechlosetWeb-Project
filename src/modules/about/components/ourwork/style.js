@@ -2,37 +2,40 @@ import { colors } from "../../../../constants/color";
 
 export const style = {
     bgcolor: {
-        left:'0px',
-        right:'0px',
-        paddingLeft:'33px',
-        marginTop:'50px',
+        left: '0px',
+        right: '0px',
+        paddingLeft: '33px',
+        marginTop: '50px',
 
     },
-    img1:{
-        maxWidth:'90%',
-        height:'auto',
-        marginTop:'20px',
-        
-        },
-        img4:{
-            marginTop:'20px',
-            maxWidth:'90%',
-            height:'auto',
-            },
-        img6:{
-            maxWidth:'90%',
-            height:'auto',
-            marginTop:'20px',
-            width:'393px',
-            marginBottom:'100px',
-            },
-    
+    textdec: {
+        textDecoration: 'none',
+    },
+    img1: {
+        maxWidth: '90%',
+        height: 'auto',
+        marginTop: '20px',
+
+    },
+    img4: {
+        marginTop: '20px',
+        maxWidth: '90%',
+        height: 'auto',
+    },
+    img6: {
+        maxWidth: '90%',
+        height: 'auto',
+        marginTop: '20px',
+        width: '393px',
+        marginBottom: '100px',
+    },
+
     heading: {
         color: 'black',
         fontSize: '36px',
         lineHeight: '1.4',
-        fontWeight:'700',
-        marginBottom:'20px',
+        fontWeight: '700',
+        marginBottom: '20px',
 
     },
     para: {

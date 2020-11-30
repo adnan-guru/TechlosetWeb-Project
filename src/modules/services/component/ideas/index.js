@@ -2,8 +2,8 @@ import React from 'react';
 import { style } from './style.js';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+import Buttons from '../../../../commonComponents/buttons';
+
 
 
 
@@ -20,11 +20,7 @@ function Ideas() {
                     DO YOU HAVE A BIG IDEA WE CAN HELP WITH?
                </Typography>
                 <Grid item md={12} style={style.alignitem}>
-                    <Button style={style.button} variant="contained" color="primary">
-                    {<PlayArrowIcon />}
-                        CONTACT US
-                        
-               </Button>
+                    <Buttons title="CONTACT US" color="#fff" to="/contactus" />
                 </Grid>
             </Grid>
         </Grid>

@@ -4,8 +4,14 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import Typography from '@material-ui/core/Typography';
+import {Link,useHistory} from 'react-router-dom';
 
-function Engineers() {
+
+function Engineers(props) {
+    const history = useHistory();
+    const goToPage = ()=>{
+        history.push(props.to)
+    }
     return (
         <Grid container style={style.top}>
             <Grid item md={12}>
@@ -23,14 +29,14 @@ function Engineers() {
               </Typography>
             </Grid>
             <Grid item md={4} xs={12}>
-                <a style={style.atag} href="#">
-                    <Button style={style.button}
+                <Link to="/work" style={style.textdec}>
+                    <Button onClick={goToPage}  style={style.button}
                         variant="contained"
                         color="secondary"
                         startIcon={<ArrowRightAltIcon />} >
                         HIRE NOW
                          </Button>
-                </a>
+                </Link>
             </Grid>
             
        

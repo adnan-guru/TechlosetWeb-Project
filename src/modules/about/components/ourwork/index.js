@@ -7,8 +7,13 @@ import Button from '@material-ui/core/Button';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
+import {Link,useHistory} from 'react-router-dom';
 
-function Ourwork() {
+function Ourwork(props) {
+    const history = useHistory();
+    const goToPage = ()=>{
+        history.push(props.to)
+    }
     return (
        <Container>
         <Grid container style={style.bgcolor}>
@@ -23,12 +28,14 @@ function Ourwork() {
             </Grid>
             <Grid item md={2}></Grid>
             <Grid item md={2}>
-                <Button style={style.button}
+                <Link to="/work" style={style.textdec}>
+                <Button onClick={goToPage} style={style.button}
                     variant="contained"
                     color="secondary"
                     startIcon={<ArrowRightAltIcon />} >
                     OUR WORK
                          </Button>
+                         </Link>
             </Grid>
             <Grid item sm={4}>
                 <img style={style.img1} src={images.img1} alt="" />

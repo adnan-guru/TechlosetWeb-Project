@@ -35,7 +35,7 @@ export const style = {
         paddingLeft: '60px',
         paddingRight: '60px',
     },
-    atag: {
+    textdec: {
         textDecoration: 'none',
     },
     button: {
