@@ -1,8 +1,9 @@
 import { colors } from '../../constants/color';
 export const style={
     main: {
-        backgroundColor: 'rgb(50,54,67)',
+        backgroundColor: 'transparent',
         padding:'12px',
+        boxShadow:'none',
         opacity:'0.9'
       },
       imglogo: {

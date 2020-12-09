@@ -28,7 +28,7 @@ export const style = {
     },
     bgimage: {
         
-        backgroundPosition: '50% 50%',
+        backgroundPosition: '60% 30%',
         backgroundSize: 'cover',
         maxWidth: '100%',
         height: '670px',

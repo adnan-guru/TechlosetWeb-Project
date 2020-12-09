@@ -11,13 +11,14 @@ import { Grid } from '@material-ui/core';
 function Footer() {
     return (
         <Grid container>
+            <Grid ></Grid>
                 <Grid item md={4}>
                     <div>
-                      <p style={style.copy}>© Copyright 2019 -2020 | TechloSet | ALL RIGHTS RESERVED</p>
+                      <p style={style.text}>© Copyright 2019 -2020 | TechloSet | ALL RIGHTS RESERVED</p>
                     </div>
                 </Grid>
                 <Grid item md={5} > </Grid>
-                <Grid item md={3} style={style.footericon} >
+                <Grid item md={3} style={style.icontop} >
                     <a style={style.icons} href="#"> <FacebookIcon /></a>
                     <a style={style.icons} href="#"> < LinkedInIcon /></a>
                     <a style={style.icons} href="#"> <TwitterIcon /></a>

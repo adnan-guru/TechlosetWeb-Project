@@ -21,6 +21,13 @@ export const style = {
         marginTop: '50px',
         padding: '0px',
     },
+    img3: {
+        maxWidth: '100%',
+        width: '570px',
+        height: 'auto',
+        marginTop: '50px',
+        padding: '0px',
+    },
     list: {
         color: colors.primaryColor,
         lineHeight: '30px',

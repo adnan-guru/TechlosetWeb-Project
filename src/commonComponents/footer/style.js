@@ -4,14 +4,15 @@ export const style={
         textDecoration:'none',
         color:'rgb(57, 114, 255',
     },
-    footericon:{
-        marginTop:'40px',
+    icontop:{
+        marginTop:'30px',
+        marginBottom:'10px',
     
     },
-    copy:{
+    text:{
         fontSize:'13px',
         color:'#d8d8d8',
-        marginTop:'40px',
+        marginTop:'30px',
         marginLeft:'20px',
     }
 }
