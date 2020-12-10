@@ -6,7 +6,8 @@ export const style={
         textDecoration:'none',
     },
     icon:{
-        marginLeft:'160px',
+        marginLeft:'70px',
+        marginTop:'10px',
     },
    
 }

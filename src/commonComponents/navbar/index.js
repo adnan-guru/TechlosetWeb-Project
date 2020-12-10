@@ -7,8 +7,11 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import Hidden from '@material-ui/core/Hidden';
 import Drawer from '../../commonComponents/drawer'
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
 
 export default function Navbar() {
+  const matches = useMediaQuery('(min-width:900px)');
   const [navBackground, setnavBackground] = useState("transparent")
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -19,8 +22,8 @@ export default function Navbar() {
 
   return (
     <AppBar style={{ ...style.main, backgroundColor: navBackground, }} position="fixed">
-      <Toolbar>
-        <img style={style.imglogo} src={logo} alt="logo" />
+      <Toolbar style={style.items}>
+        <img style={matches ?  style.imglogo : style.imglogo2} src={logo} alt="logo" />
         <Hidden only="xs">
           <Typography variant="h6" style={style.title}>
           </Typography>

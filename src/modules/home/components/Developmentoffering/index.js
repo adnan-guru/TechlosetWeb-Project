@@ -56,7 +56,8 @@ function Developmentoffering() {
             </Grid>
             <Grid item md={4} xs={12} style={style.item}>
                 <InstagramIcon style={style.icons} />
-                <p style={style.heading2}>Artificial Intelligence</p>
+                <Typography style={style.heading2}>
+                    Artificial Intelligence</Typography>
                 <KeyboardArrowDownIcon style={style.arrow} />
                 <Typography style={style.services} variant="subtitle9">
                     Deep Learning

@@ -3,7 +3,7 @@ import { colors } from '../../../../constants/color';
 export const style = {
     bgimage: {
         backgroundImage: `url(${bgimg})`,
-        backgroundPosition: '50% 50%',
+        backgroundPosition: '50% 80%',
         backgroundSize: 'cover',
         maxWidth: '100%',
         height: ' 300px',

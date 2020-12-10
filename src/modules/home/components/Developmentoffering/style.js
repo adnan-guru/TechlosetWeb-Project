@@ -38,15 +38,15 @@ export const style = {
         backgroundPosition: '50% 50%',
         borderColor: colors.secondryColor,
         borderWidth: '1px',
-        height: '90px',
-        width: '90px',
+        height: '50px',
+        width: '50px',
         lineHeight: '100px',
-        borderRadius: '60px',
+        borderRadius: '50px',
         boxShadow: '0px 0px 2px #2176ff',
-        borderColor: 'coral',
-        color: '#2176ff',
+        color: colors.secondryColor,
         fontSize: '50px',
         marginTop: '30px',
+        padding:'10px'
     },
     heading2: {
         fontWeight: '700',
@@ -62,9 +62,10 @@ export const style = {
         color: '#fff',
     },
     arrow4: {
-        width: '100px',
+        width: '120px',
         height: '80px',
         color: '#fff',
+        fontWeight:'700'
     },
     services: {
         fontSize: '20px',

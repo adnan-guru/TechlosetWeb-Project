@@ -34,8 +34,6 @@ export const style = {
         fontSize: '18px',
         fontWeight: '400',
     },
-
-
     para: {
         color: colors.primaryColor,
         lineHeight: '30px',

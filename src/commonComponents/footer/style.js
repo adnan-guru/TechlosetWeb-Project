@@ -7,12 +7,16 @@ export const style={
     icontop:{
         marginTop:'30px',
         marginBottom:'10px',
+        paddingLeft:'25px'
+     
+        
     
     },
     text:{
         fontSize:'13px',
         color:'#d8d8d8',
         marginTop:'30px',
-        marginLeft:'20px',
+        textAlign:'center',
+      
     }
 }

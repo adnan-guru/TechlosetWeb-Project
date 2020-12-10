@@ -2,12 +2,12 @@ import React from 'react';
 import { style } from './style.js';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import PhoneEnabledIcon from '@material-ui/icons/PhoneEnabled';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import Container from '@material-ui/core/Container';
+
+
 function Contactus() {
     return (
-
+<Container>
         <Grid container >
             <Grid item md={2} xs={2}></Grid>
             <Grid item md={8} xs={8}>
@@ -15,13 +15,11 @@ function Contactus() {
                     Let’s Connect, We are more than happy to help you.
           </Typography>
             </Grid>
-            <Grid item md={2} xs={2}></Grid>
+            <Grid item md={3} xs={2}></Grid>
+
             <Grid container style={style.main}>
-                <Grid item md={1} xs={1}></Grid>
-                <Grid item md={5} xs={12}>
-                    slider
-                </Grid>
-                <Grid item md={5} xs={12}>
+                <Grid item md={3} xs={12}></Grid>
+                <Grid item md={6} xs={12}>
                     <input style={style.inputs1} type="text" placeholder="NAME" />
                     <input style={style.inputs2} type="text" placeholder="EMAIL" />
                     <input style={style.inputs2} type="text" placeholder="PHONE" />
@@ -71,33 +69,10 @@ function Contactus() {
                         <input style={style.contact} type="submit" value="LET'S TALK" />
                     </Grid>
                 </Grid>
-                <Grid item md={1} xs={1}></Grid>
+                <Grid item md={3} xs={12}></Grid>
             </Grid>
-            <Grid container style={style.footer}>
-                <Grid item md={1} x={12}></Grid>
-                <Grid item md={3} x={12}>
-                    < PhoneEnabledIcon style={style.icons} />
-                    <Typography style={style.iconcontect} variant="h2">
-                        +92-306-0008208
-               </Typography>
-
-                </Grid>
-                <Grid item md={3} xs={12}>
-                    < TwitterIcon style={style.icons} />
-                    <Typography style={style.iconcontect} variant="h2">
-                        Tweet Us
-               </Typography>
-                </Grid>
-                <Grid item md={3} xs={12}>
-                    < MailOutlineIcon style={style.icons} />
-                    <Typography style={style.iconcontect} variant="h2">
-                        Email Us
-               </Typography>
-                </Grid>
-                <Grid item md={1} xs={12}></Grid>
-            </Grid>
-
         </Grid>
+        </Container>
 
     )
 }

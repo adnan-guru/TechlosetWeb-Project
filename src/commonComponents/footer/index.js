@@ -11,7 +11,6 @@ import { Grid } from '@material-ui/core';
 function Footer() {
     return (
         <Grid container>
-            <Grid ></Grid>
                 <Grid item md={4}>
                     <div>
                       <p style={style.text}>© Copyright 2019 -2020 | TechloSet | ALL RIGHTS RESERVED</p>

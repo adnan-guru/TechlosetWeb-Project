@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 
-function Appdevelopment(props) {
+function Rapeatcomponent(props) {
   return (
     <Container style={style.main}>
       <Grid container>
@@ -67,4 +67,4 @@ function Appdevelopment(props) {
     </Container>
   );
 }
-export default Appdevelopment;
+export default Rapeatcomponent;

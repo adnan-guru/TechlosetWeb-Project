@@ -11,12 +11,10 @@ export const style = {
 
     main: {
         paddingTop: '50px',
-        paddingLeft: '20px',
-        paddinRight: '20px',
     },
     inputs1: {
         height: '50px',
-        width: '92%',
+        width: '100%',
         outline: 'none',
 
 
@@ -24,21 +22,22 @@ export const style = {
     inputs2: {
         marginTop: '20px',
         height: '50px',
-        width: '92%',
+        width: '100%',
         outline: 'none',
     },
     menu1: {
         marginTop: '20px',
         height: '50px',
-        width: '92%',
+        width: '100%',
         outline: 'none',
         color: colors.primaryColor
 
     },
     menu2: {
         marginTop: '20px',
+        marginLeft:'7px',
         height: '50px',
-        width: '87%',
+        width: '100%',
         outline: 'none',
         color: colors.primaryColor
 
@@ -47,7 +46,7 @@ export const style = {
         fontSize: '15px',
         marginTop: '20px',
         height: '150px',
-        width: '92%',
+        width: '100%',
         outline: 'none',
         color: colors.primaryColor
     },
@@ -64,43 +63,5 @@ export const style = {
         lineHeight: '17px',
         outline: 'none',
     },
-    footer: {
-        textAlign: 'center',
-        backgroundColor: colors.secondryColor,
-        marginTop: '30px',
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        maxWidth: '100%',
-
-    },
-    icons: {
-        marginTop: '60px',
-        borderColor: '#ffffff',
-        borderWidth: '1px',
-        backgroundColor: ' #ffffff',
-        height: '84px',
-        width: '84px',
-        lineHeight: '84px',
-        borderRadius: '50%',
-        color: '#2176ff',
-        fontSize: '42px',
-    },
-    iconcontect: {
-        fontSize: '24px',
-        lineHeight: '1.21',
-        marginTop: '10px',
-        marginBottom: '50px',
-        color: '#fff',
-        fontWeight: '500',
-    }
-
-
-
-
-
-
-
-
+   
 }
