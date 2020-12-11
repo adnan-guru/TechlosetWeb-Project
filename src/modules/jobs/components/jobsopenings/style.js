@@ -17,6 +17,8 @@ export const style = {
         fontWeight: '600'
     },
     heading1: {
+        paddingTop: '40px',
+        paddingBottom: '40px',
         fontSize: '20px',
         color: '#333',
         marginLeft: '15px'
@@ -71,16 +73,22 @@ export const style = {
         paddingBottom: '15px',
         fontSize: '12px',
         boder: 'none',
-
+        width: '100%',
+        outline: 'none',
 
     },
     category2: {
         fontSize: '12px',
+margin: '0 48px 0 10px',
+
 
     },
-    box1:{
-        marginTop:'10px',
+    box1: {
+        marginTop: '10px',
     },
+    shadow: {
+        boxShadow: '0 5px 15px 0 rgba(0,0,0,.13)',
+    }
 
 
 

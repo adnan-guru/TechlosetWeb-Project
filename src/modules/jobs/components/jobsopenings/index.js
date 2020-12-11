@@ -13,12 +13,12 @@ import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 function Jobsopenings() {
     return (
         <div style={style.main}>
-            <Grid container>
+            <Grid container >
                 <Grid item md={12} xs={12}>
                     <Typography style={style.heading} variant="h1">
                         Jobs Openings
                    </Typography>
-                    <Grid container style={style.main2}>
+                    <Grid container style={style.main2} spacing={1}>
                         <Grid style={style.box1} item md={2} xs={12}>
                             <select style={style.category}>
                                 <option style={style.category2} value="grapefruit">All Jobs Category</option>
@@ -30,17 +30,14 @@ function Jobsopenings() {
                         <Grid style={style.box1} item md={2} xs={12}>
                             <select style={style.category}>
                                 <option style={style.category2} value="grapefruit">All Jobs Type</option>
-                                <option style={style.category2} value="lime">Designer</option>
-                                <option style={style.category2} value="coconut">Full Stack Software Enigneer</option>
-                                <option style={style.category2} value="mango">Intern</option>
+                                <option style={style.category2} value="lime">Full Time</option>
+                                <option style={style.category2} value="coconut">Remote Work</option>
                             </select>
                         </Grid>
                         <Grid style={style.box1} item md={2} xs={12}>
                             <select style={style.category}>
                                 <option style={style.category2} value="grapefruit">All Jobs Location</option>
-                                <option style={style.category2} value="lime">Designer</option>
-                                <option style={style.category2} value="coconut">Full Stack Software Enigneer</option>
-                                <option style={style.category2} value="mango">Intern</option>
+                                <option style={style.category2} value="lime">Faislabad</option>
                             </select>
                         </Grid>
 
@@ -50,7 +47,7 @@ function Jobsopenings() {
             </Grid>
             <Grid style={style.main3} container spacing={5}>
                 <Grid item md={4} xs={12}>
-                    <Paper>
+                    <Paper style={style.shadow}>
                         <Typography style={style.heading1} variant="h3">
                             Intership
                         </Typography>
@@ -61,7 +58,7 @@ function Jobsopenings() {
                     </Paper>
                 </Grid>
                 <Grid item md={4} xs={12}>
-                    <Paper>
+                    <Paper style={style.shadow}>
                         <Typography style={style.heading1} variant="h3">
                             Machine Learning (Python) Enigneer
                        </Typography>
@@ -73,7 +70,7 @@ function Jobsopenings() {
                     </Paper>
                 </Grid>
                 <Grid item md={4} xs={12}>
-                    <Paper>
+                    <Paper style={style.shadow}>
                         <Typography style={style.heading1} variant="h3">
                             Full Stack Software Enigneer
                         </Typography>
@@ -84,7 +81,7 @@ function Jobsopenings() {
                     </Paper>
                 </Grid>
                 <Grid item md={4} xs={12}>
-                    <Paper>
+                    <Paper style={style.shadow}>
                         <Typography style={style.heading1} variant="h3">
                             Creative Graphic Designer Required
                         </Typography>

@@ -6,14 +6,12 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import { Grid } from '@material-ui/core';
 
-
-
 function Footer() {
     return (
         <Grid container>
                 <Grid item md={4}>
                     <div>
-                      <p style={style.text}>© Copyright 2019 -2020 | TechloSet | ALL RIGHTS RESERVED</p>
+                      <p style={ style.text}>© Copyright 2019 -2020 | TechloSet | ALL RIGHTS RESERVED</p>
                     </div>
                 </Grid>
                 <Grid item md={5} > </Grid>

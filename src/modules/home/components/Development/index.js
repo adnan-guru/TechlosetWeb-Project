@@ -17,7 +17,7 @@ function Development() {
                 <Typography style={matches ? style.heading : style.heading2} variant="h1">
                     Your Trusted Development Partner
                </Typography>
-                <Typography style={style.para} variant="subtitle1" gutterBottom>
+                <Typography style={matches ? style.para : style.para2} variant="subtitle1" gutterBottom>
                     We deliver web and mobile app development services to global businesses since 2015, with 100% project delivery success. Hire the best programmers at affordable prices. Our design-focused approach and project execution processes help you to deliver the right solutions.
                </Typography>
                <br />

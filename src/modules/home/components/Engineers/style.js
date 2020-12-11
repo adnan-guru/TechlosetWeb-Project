@@ -11,7 +11,7 @@ export const style = {
         justifyContent: 'center',
         color:colors.infoColor,
     },
-    para1: {
+    para: {
         marginTop: '50px',
         color: colors.primaryColor,
         fontSize: '18px',
@@ -21,15 +21,7 @@ export const style = {
         textAlign:'left'
 
     },
-    para2: {
-        color: colors.primaryColor,
-        fontSize: '18px',
-        fontWieght: '400',
-        lineHieght: '30px',
-        marginBottom: '30px',
-        textAlign:'left',
-
-    },
+  
     top: {
         marginTop: '50px',
         paddingLeft: '60px',

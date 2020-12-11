@@ -28,6 +28,19 @@ export const style = {
         alignItems: 'center',
         justifyContent: 'center',
     },
+    para2: {
+        letterSpacing: '2px',
+        fontWeight: '300',
+        lineHeight: '30px',
+        fontSize: '19px',
+        color: '#fff',
+        textAlign: 'center',
+        marginTop: '50px',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
 
     
 
