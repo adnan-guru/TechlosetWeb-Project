@@ -5,9 +5,9 @@ export const style={
         fontSize:'14px',
         textDecoration:'none',
     },
-    icon:{
-        marginLeft:'70px',
-        marginTop:'10px',
-    },
+   
+    
+    
+   
    
 }

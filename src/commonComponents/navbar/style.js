@@ -3,34 +3,36 @@ export const style = {
   main: {
     backgroundColor: 'transparent',
     boxShadow: 'none',
-    opacity: '0.9'
+    opacity: '0.9',
+    paddingRight:'0px',
+  },
+  items:{
+
   },
   imglogo: {
     maxWidth: '15%',
     hieght: 'auto',
-    marginLeft: '40px',
+    marginLeft: '30px',
   },
   imglogo2: {
-    maxWidth: '75%',
+    maxWidth: '50%',
     hieght: 'auto',
     marginLeft: '15px',
-    marginTop:'20px'
+    marginTop:'10px',
+    marginBottom:'15px',
   },
   title: {
     flexGrow: 1,
   },
   toplink: {
-    paddingTop:'30px',
-    marginBottom:'30px',
-    paddingRight: '55px',
+    paddingTop:'25px',
+    marginBottom:'25px',
+    paddingRight: '62px',
     color: '#d8d8d8',
     fontWeight: '400',
     fontSize: '14px',
     textDecoration: 'none',
     fontFamily: 'Montserrat',
-  },
-  items: {
-    paddingRight: '70px'
   },
   contact: {
     backgroundColor: colors.secondryColor,
@@ -42,8 +44,9 @@ export const style = {
     fontSize: '14px',
     lineHeight: '17px',
     textDecoration: 'none',
-    marginTop:'30px',
-    marginBottom:'30px'
+    marginTop:'25px',
+    marginBottom:'25px',
+  
   },
 
 }

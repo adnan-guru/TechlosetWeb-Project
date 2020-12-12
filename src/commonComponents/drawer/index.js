@@ -8,6 +8,7 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import { style } from './style.js';
 import { Link } from 'react-router-dom';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
 const useStyles = makeStyles({
@@ -78,10 +79,10 @@ export default function Drawer() {
             <Divider />
         </div>
     );
-
+    const matches = useMediaQuery('(min-width:960px)');
     return (
-        <div>
-            <ReorderSharpIcon style={style.icon} onClick={toggleDrawer("left", true)} />
+        <div style={{marginLeft:"auto"}}>
+            <ReorderSharpIcon  onClick={toggleDrawer("left", true)} />
 
             <React.Fragment key={"left"}>
                 <SwipeableDrawer

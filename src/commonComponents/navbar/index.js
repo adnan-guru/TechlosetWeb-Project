@@ -24,7 +24,7 @@ export default function Navbar() {
     <AppBar style={{ ...style.main, backgroundColor: navBackground, }} position="fixed">
       <Toolbar style={style.items}>
         <img style={matches ?  style.imglogo : style.imglogo2} src={logo} alt="logo" />
-        <Hidden only="xs">
+        <Hidden only={["xs", "sm"]}>
           <Typography variant="h6" style={style.title}>
           </Typography>
           <Link to="/" style={style.toplink} >HOME</Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
             CONTACT US
          </Link>
         </Hidden>
-        <Hidden only={['sm', 'md', 'lg']}>
+        <Hidden only={['md', 'lg', 'xl']}>
           <Drawer />
         </Hidden>
       </Toolbar>

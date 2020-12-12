@@ -44,7 +44,7 @@ export const style = {
         marginTop:'50px',
         color: '#fff',
         fontWeight: '700',
-        fontSize: '3.5vw',
+        fontSize: '4vw',
         marginBottom: '20px',
         textAlign: 'center',
         fontFamily: 'Roboto", "Helvetica", "Arial", sans-serif',
