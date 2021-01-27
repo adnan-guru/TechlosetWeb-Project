@@ -18,12 +18,14 @@ export default function Navbar() {
       const backgroundcolor = window.scrollY < 70 ? "transparent" : "rgb(50,54,67)";
       setnavBackground(backgroundcolor);
     });
-  }, [])
+  });
 
   return (
     <AppBar style={{ ...style.main, backgroundColor: navBackground, }} position="fixed">
       <Toolbar style={style.items}>
-        <img style={matches ?  style.imglogo : style.imglogo2} src={logo} alt="logo" />
+        <Link to="/">
+          <img style={matches ? style.imgLogo : style.imgLogoSc} src={logo} alt="logo" />
+        </Link>
         <Hidden only={["xs", "sm"]}>
           <Typography variant="h6" style={style.title}>
           </Typography>

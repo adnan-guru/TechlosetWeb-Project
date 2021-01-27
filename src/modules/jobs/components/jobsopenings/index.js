@@ -18,7 +18,7 @@ function Jobsopenings() {
                     <Typography style={style.heading} variant="h1">
                         Jobs Openings
                    </Typography>
-                    <Grid container style={style.main2} spacing={1}>
+                    <Grid container style={style.contantMain} spacing={1}>
                         <Grid style={style.box1} item md={2} xs={12}>
                             <select style={style.category}>
                                 <option style={style.category2} value="grapefruit">All Jobs Category</option>
@@ -45,7 +45,7 @@ function Jobsopenings() {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid style={style.main3} container spacing={5}>
+            <Grid style={style.paperContant} container spacing={5}>
                 <Grid item md={4} xs={12}>
                     <Paper style={style.shadow}>
                         <Typography style={style.heading1} variant="h3">

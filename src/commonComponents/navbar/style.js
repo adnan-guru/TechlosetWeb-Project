@@ -9,12 +9,12 @@ export const style = {
   items:{
 
   },
-  imglogo: {
-    maxWidth: '15%',
+  imgLogo: {
+    maxWidth: '50%',
     hieght: 'auto',
     marginLeft: '30px',
   },
-  imglogo2: {
+  imgLogoSc: {
     maxWidth: '50%',
     hieght: 'auto',
     marginLeft: '15px',

@@ -10,18 +10,14 @@ import { style } from './style.js';
 import { Link } from 'react-router-dom';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
-
 const useStyles = makeStyles({
     list: {
         width: 200,
         height: 600,
         backgroundColor: 'rgb(50,54,67)',
         padding: '20px',
-        opacity:'0.9',
-        
-    },
-    fullList: {
-        // width: 250,
+        opacity: '0.9',
+
     },
 });
 
@@ -53,7 +49,7 @@ export default function Drawer() {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-            
+
                 <ListItem button key={"home"}>
                     <Link to="/" style={style.toplink} >HOME</Link>
                 </ListItem>
@@ -73,7 +69,7 @@ export default function Drawer() {
                     <Link to="/jobs" style={style.toplink} >JOBS</Link>
                 </ListItem>
                 <ListItem>
-                <Link to="/contactus" style={style.toplink} >CONTACT US</Link>
+                    <Link to="/contactus" style={style.toplink} >CONTACT US</Link>
                 </ListItem>
             </List>
             <Divider />
@@ -81,8 +77,8 @@ export default function Drawer() {
     );
     const matches = useMediaQuery('(min-width:960px)');
     return (
-        <div style={{marginLeft:"auto"}}>
-            <ReorderSharpIcon  onClick={toggleDrawer("left", true)} />
+        <div style={{ marginLeft: "auto" }}>
+            <ReorderSharpIcon onClick={toggleDrawer("left", true)} />
 
             <React.Fragment key={"left"}>
                 <SwipeableDrawer

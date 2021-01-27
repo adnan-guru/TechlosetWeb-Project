@@ -7,10 +7,10 @@ import Bigidea from '../../commonComponents/bigidea';
 function About() {
     return (
         <div>
-<Contactus />
-<Bitabout />
-<Ourwork />
-<Bigidea />
+            <Contactus />
+            <Bitabout />
+            <Ourwork />
+            <Bigidea />
 
         </div>
     )
