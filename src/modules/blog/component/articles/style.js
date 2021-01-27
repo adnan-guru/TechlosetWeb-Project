@@ -1,7 +1,7 @@
 import bgimg from '../../../../assets/bgimage3.jpg';
 import { colors } from '../../../../constants/color';
 export const style = {
-    bgimage: {
+    bgImage: {
         backgroundImage: `url(${bgimg})`,
         backgroundPosition: '50% 50%',
         backgroundSize: 'cover',
@@ -46,7 +46,7 @@ export const style = {
         letterSpacing: '2px',
     },
 
-    bgcolor: {
+    bgColor: {
         backgroundColor: colors.secondryColor,
         marginBottom: '50px',
     },
@@ -58,7 +58,7 @@ export const style = {
         borderRadius: '50px',
         padding: '10px 30px 10px 30px',
     },
-    alignitem: {
+    alignItem: {
         display: 'flex',
         flexDirection: 'colume',
         alignItems: 'center',

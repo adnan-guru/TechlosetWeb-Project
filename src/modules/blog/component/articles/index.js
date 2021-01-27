@@ -10,7 +10,6 @@ import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 
 function Articles() {
     return (
-
         <Grid container >
             <Grid item md={12} xs={12} >
                 <Typography style={style.heading} variant="h3">
@@ -25,15 +24,14 @@ function Articles() {
          </Typography>
                 </Grid>
             </Grid>
-            <Grid item md={12} style={style.bgimage}  >
+            <Grid item md={12} style={style.bgImage}  >
             </Grid>
-            <Grid item md={12} style={style.bgcolor}>
+            <Grid item md={12} style={style.bgColor}>
                 <Typography style={style.para2} variant="subtitle1">
                     DO YOU HAVE A BIG IDEA WE CAN HELP WITH?
                </Typography>
-                <Grid item md={12} style={style.alignitem}>
-                    
-                    <Buttons title="CONTACT US" color="#fff"  to="/contactus"/>
+                <Grid item md={12} style={style.alignItem}>
+                    <Buttons title="CONTACT US" color="#fff" to="/contactus" />
                 </Grid>
             </Grid>
         </Grid>

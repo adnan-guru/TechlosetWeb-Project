@@ -1,16 +1,12 @@
 export const style = {
-  aside:{
+  aside: {
     position: 'fixed',
-     bottom: 0,
-      right: 15,
-      backgroundColor: 'rgb(33, 118, 255)',
+    bottom: 0,
+    right: 15,
+    backgroundColor: 'rgb(33, 118, 255)',
   },
-   
-    
-    icon:{
-        color: '#fff',
-         textDecoration: 'none', 
-
-
-    },
+  icon: {
+    color: '#fff',
+    textDecoration: 'none',
+  },
 }

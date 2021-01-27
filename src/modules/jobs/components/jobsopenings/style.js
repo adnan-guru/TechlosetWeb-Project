@@ -1,14 +1,14 @@
 
 export const style = {
     main: {
-        marginTop: '220px',
+        marginTop: '15%',
         paddingLeft: '40px',
         paddingRight: '40px',
     },
-    main2: {
+    contantMain: {
         paddingTop: '30px',
     },
-    main3: {
+    paperContant: {
         paddingTop: '50px',
     },
     heading: {
@@ -58,15 +58,12 @@ export const style = {
         marginRight: '8px',
         width: '15px',
         height: '15px',
-
     },
     icon2: {
         marginLeft: '10px',
         marginTop: '10px',
         width: '20px',
         height: '15px',
-
-
     },
     category: {
         paddingTop: '15px',
@@ -75,13 +72,10 @@ export const style = {
         boder: 'none',
         width: '100%',
         outline: 'none',
-
     },
     category2: {
         fontSize: '12px',
-margin: '0 48px 0 10px',
-
-
+        margin: '0 48px 0 10px',
     },
     box1: {
         marginTop: '10px',

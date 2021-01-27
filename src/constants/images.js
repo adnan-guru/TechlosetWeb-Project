@@ -15,8 +15,6 @@ import servicesimg9 from '../assets/services-img9.jpg';
 import servicesimg10 from '../assets/services-img10.jpg';
 import servicesimg11 from '../assets/services-img11.jpg';
 
-
-
 export default {
     img1: img1,
     img2: img2,
@@ -34,7 +32,4 @@ export default {
     servicesimg9: servicesimg9,
     servicesimg10: servicesimg10,
     servicesimg11: servicesimg11,
-
-
-
 };
