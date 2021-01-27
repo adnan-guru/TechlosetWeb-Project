@@ -20,8 +20,7 @@ function Contactus() {
           <Grid item md={5} xs={12} style={style.slider}>
             <Slider />
           </Grid>
-          <Grid item md={1} >
-          </Grid>
+          <Grid item md={1}></Grid>
           <Grid container item md={6} xs={12} sm={6}>
             <input style={style.inputs1} type="text" placeholder="NAME" />
             <input style={style.inputs2} type="text" placeholder="EMAIL" />
