@@ -19,7 +19,7 @@ function Wordpressdevelopment() {
                         DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP.
             </Typography>
                     <img style={style.img1} src={divide} alt="divide" />
-                    <Typography style={style.para2} variant="subtitle2">
+                    <Typography style={style.para2} variant="subtitle1">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. ex ea commodo consequat.
                     </Typography>
                 </Grid>

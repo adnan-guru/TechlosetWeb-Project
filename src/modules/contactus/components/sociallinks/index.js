@@ -13,7 +13,7 @@ function Contactus() {
                 <Grid item md={4} xs={12}>
                     < PhoneEnabledIcon style={style.icons} />
                     <Typography style={style.iconcontect} variant="h2">
-                        +92-306-0008208
+                        +92-305-6232587
                </Typography>
 
                 </Grid>
@@ -27,7 +27,7 @@ function Contactus() {
                     < MailOutlineIcon style={style.icons} />
                     <Typography style={style.iconcontect} variant="h2">
                         Email Us
-               </Typography>
+                   </Typography>
                 </Grid>
                 {/* <Grid item md={1} xs={12}></Grid> */}
             </Grid>

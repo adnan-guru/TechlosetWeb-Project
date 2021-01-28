@@ -9,22 +9,32 @@ function Contactus() {
   return (
     <Container>
       <Grid container>
-        {/* <Grid item md={2} xs={2}></Grid> */}
         <Grid item md={12} xs={12}>
           <Typography style={style.heading} variant="subtitle1">
             Let’s Connect, We are more than happy to help you.
           </Typography>
         </Grid>
-
-        <Grid container item style={style.main}>
+        <Grid container style={style.main}>
           <Grid item md={5} xs={12} style={style.slider}>
             <Slider />
           </Grid>
           <Grid item md={1}></Grid>
-          <Grid container item md={6} xs={12} sm={6}>
-            <input style={style.inputs1} type="text" placeholder="NAME" />
-            <input style={style.inputs2} type="text" placeholder="EMAIL" />
-            <input style={style.inputs2} type="text" placeholder="PHONE" />
+          <Grid item md={6} xs={12} sm={6}>
+            <input style={style.input}
+              required
+              type="text"
+              placeholder="Name"
+            />
+            <input style={style.input}
+              required
+              type="text"
+              placeholder="Email"
+            />
+              <input style={style.input}
+              required
+              type="text"
+              placeholder="Phone"
+            />
             <Grid container>
               <Grid item md={6} xs={6} sm={6}>
                 <select style={style.menu1}>
@@ -87,7 +97,6 @@ function Contactus() {
                   placeholder="Brief About The Project"
                 />
               </Grid>
-              <Grid col md={12} xs={12}></Grid>
               <input style={style.contact} type="submit" value="LET'S TALK" />
             </Grid>
           </Grid>

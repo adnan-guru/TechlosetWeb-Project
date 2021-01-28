@@ -11,10 +11,9 @@ function Ideas() {
     return (
 
         <Grid container >
-            <Grid item md={12} style={style.bgimage}  >
+              <Grid item md={12} style={style.bgimage}  >
               {/* slider */}
-
-            </Grid>
+            </Grid> 
             <Grid item md={12} style={style.bgcolor}>
                 <Typography style={style.para} variant="subtitle1">
                     DO YOU HAVE A BIG IDEA WE CAN HELP WITH?

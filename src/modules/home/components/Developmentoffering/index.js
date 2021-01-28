@@ -20,37 +20,37 @@ function Developmentoffering() {
             </Grid>
             <Grid item md={4} xs={12} style={style.item} >
                 <InstagramIcon style={style.icons} />
-                <Typography style={style.heading2} variant="subtitle2">
+                <Typography style={style.heading2} variant="body1">
                     Mobile Development
                 </Typography>
                 <KeyboardArrowDownIcon style={style.arrow} />
-                <Typography style={style.services} variant="subtitle3">
+                <Typography style={style.services} variant="body1">
                     React Native
                 </Typography>
                 <hr style={style.hr} />
-                <Typography style={style.services} variant="subtitle4">
+                <Typography style={style.services} variant="body1">
                     ISO
                 </Typography>
                 <hr style={style.hr} />
-                <Typography style={style.services} variant="subtitle5">
+                <Typography style={style.services} variant="body1">
                     Android
                 </Typography>
             </Grid>
             <Grid item md={4} xs={12} style={style.item}>
                 <ComputerIcon style={style.icons} />
-                <Typography style={style.heading2} variant="subtitle6">
+                <Typography style={style.heading2} variant="body1">
                     Web Development
                 </Typography>
                 <KeyboardArrowDownIcon style={style.arrow} />
-                <Typography style={style.services} variant="subtitle7">
+                <Typography style={style.services} variant="body1">
                     React / View /Angular
                 </Typography>
                 <hr style={style.hr} />
-                <Typography style={style.services} variant="subtitle7">
+                <Typography style={style.services} variant="body1">
                     Nodejs / Python / Php
                 </Typography>
                 <hr style={style.hr} />
-                <Typography style={style.services} variant="subtitle8">
+                <Typography style={style.services} variant="body1">
                     MongoDB / Mysql / PSQL
                 </Typography>
             </Grid>
@@ -59,15 +59,15 @@ function Developmentoffering() {
                 <Typography style={style.heading2}>
                     Artificial Intelligence</Typography>
                 <KeyboardArrowDownIcon style={style.arrow} />
-                <Typography style={style.services} variant="subtitle9">
+                <Typography style={style.services} variant="body1">
                     Deep Learning
                 </Typography>
                 <hr style={style.hr} />
-                <Typography style={style.services} variant="subtitle10">
+                <Typography style={style.services} variant="body1">
                     Machine Learning
                 </Typography>
                 <hr style={style.hr} />
-                <Typography style={style.services} variant="subtitle11">
+                <Typography style={style.services} variant="body1">
                     Tensorflow
                 </Typography>
             </Grid>
