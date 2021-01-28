@@ -7,7 +7,7 @@ import Buttons from '../../commonComponents/buttons';
 export default function Bigidea() {
   return (
     <Grid container style={style.bgColor}>
-      <Grid item xs md={12} >
+      <Grid item md={12} >
         <Typography style={style.para} variant="subtitle1">
           DO YOU HAVE A BIG IDEA WE CAN HELP WITH?
        </Typography>
